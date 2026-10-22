@@ -1,0 +1,22 @@
+{
+  "status": "complete",
+  "original": "20261022_pilot_prefill",
+  "target_sequences": {
+    "train": 60,
+    "validation": 10,
+    "test": 10
+  },
+  "source_images": 1000,
+  "expected_targets_approx": 158160,
+  "split_policy": "preserve all original 100 assignments; disjoint new images",
+  "prefix_range": [
+    10,
+    2000
+  ],
+  "natural_language_prompt": null,
+  "system_prompt": null,
+  "model": "Gemma 4 E2B Google Tensor G5",
+  "layer_index": 4,
+  "decoder_backend": "real phone NPU",
+  "seed": 20261023
+}

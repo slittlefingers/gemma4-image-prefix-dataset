@@ -1,0 +1,14 @@
+[
+  {
+    "width": 512,
+    "scale": 0.0011563472216948867,
+    "zero_point": 0,
+    "dtype": "int8"
+  },
+  {
+    "width": 512,
+    "scale": 0.01785714365541935,
+    "zero_point": 0,
+    "dtype": "int8"
+  }
+]

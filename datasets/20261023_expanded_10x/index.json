@@ -1,0 +1,4882 @@
+[
+  {
+    "id": "train_000",
+    "split": "train",
+    "file": "sequences/train_000.npz",
+    "sha256": "207e34c6d26d1f4c24f900ffe3415cb22e788fcd0d06512abd6fe93e78d48da1",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0359",
+        "start": 5,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0530",
+        "start": 267,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0507",
+        "start": 535,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0256",
+        "start": 797,
+        "rows": 280,
+        "full_rows": 280
+      },
+      {
+        "image_id": "0569",
+        "start": 1079,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0130",
+        "start": 1341,
+        "rows": 256,
+        "full_rows": 256
+      },
+      {
+        "image_id": "0365",
+        "start": 1599,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0587",
+        "start": 1867,
+        "rows": 134,
+        "full_rows": 266
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 37.95584075001534
+  },
+  {
+    "id": "train_001",
+    "split": "train",
+    "file": "sequences/train_001.npz",
+    "sha256": "e783d46c0d93e70357f2d34dd9bd82c0e8ed117858de6baecc9cee1234118aa4",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0498",
+        "start": 5,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0791",
+        "start": 273,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0254",
+        "start": 535,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0550",
+        "start": 803,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0790",
+        "start": 1065,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0143",
+        "start": 1333,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0726",
+        "start": 1601,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0259",
+        "start": 1869,
+        "rows": 132,
+        "full_rows": 266
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 62.563696667028125
+  },
+  {
+    "id": "train_002",
+    "split": "train",
+    "file": "sequences/train_002.npz",
+    "sha256": "8250e8ac3b755f52755bff8bcb4893d53cc54b19908f865f3afb2d42029ce317",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0150",
+        "start": 5,
+        "rows": 256,
+        "full_rows": 256
+      },
+      {
+        "image_id": "0390",
+        "start": 263,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0278",
+        "start": 531,
+        "rows": 252,
+        "full_rows": 252
+      },
+      {
+        "image_id": "0132",
+        "start": 785,
+        "rows": 273,
+        "full_rows": 273
+      },
+      {
+        "image_id": "0804",
+        "start": 1060,
+        "rows": 264,
+        "full_rows": 264
+      },
+      {
+        "image_id": "0386",
+        "start": 1326,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0747",
+        "start": 1594,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0356",
+        "start": 1856,
+        "rows": 145,
+        "full_rows": 275
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 86.46990875000483
+  },
+  {
+    "id": "train_003",
+    "split": "train",
+    "file": "sequences/train_003.npz",
+    "sha256": "14eed7ee559ec59737e2c943ada80d98462193dc747050be9ae08bcc682e327a",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0754",
+        "start": 5,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0055",
+        "start": 267,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0653",
+        "start": 529,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0429",
+        "start": 791,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0170",
+        "start": 1053,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0524",
+        "start": 1315,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0731",
+        "start": 1577,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0603",
+        "start": 1845,
+        "rows": 156,
+        "full_rows": 266
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 110.85887337502209
+  },
+  {
+    "id": "train_004",
+    "split": "train",
+    "file": "sequences/train_004.npz",
+    "sha256": "16a33d02d85df501b99a93249474d697cf5ca617f6d17158e8ee3f336790d27a",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0010",
+        "start": 5,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0497",
+        "start": 273,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0147",
+        "start": 541,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0067",
+        "start": 803,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0762",
+        "start": 1065,
+        "rows": 264,
+        "full_rows": 264
+      },
+      {
+        "image_id": "0557",
+        "start": 1331,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0782",
+        "start": 1599,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0207",
+        "start": 1867,
+        "rows": 134,
+        "full_rows": 266
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 135.88647466700058
+  },
+  {
+    "id": "train_005",
+    "split": "train",
+    "file": "sequences/train_005.npz",
+    "sha256": "17b54076834695cc9bfb1d24bf991223fa28740f661e2f141f8a567c790ec711",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0708",
+        "start": 5,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0778",
+        "start": 273,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0159",
+        "start": 535,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0216",
+        "start": 803,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0635",
+        "start": 1071,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0624",
+        "start": 1339,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0058",
+        "start": 1607,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0177",
+        "start": 1875,
+        "rows": 126,
+        "full_rows": 266
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 161.8591365420143
+  },
+  {
+    "id": "train_006",
+    "split": "train",
+    "file": "sequences/train_006.npz",
+    "sha256": "9b291c502606123ae23d092224ae5da9e08a86e4413fbd2c58a3dd48c775ca54",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0172",
+        "start": 5,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0440",
+        "start": 273,
+        "rows": 256,
+        "full_rows": 256
+      },
+      {
+        "image_id": "0341",
+        "start": 531,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0092",
+        "start": 793,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0659",
+        "start": 1055,
+        "rows": 256,
+        "full_rows": 256
+      },
+      {
+        "image_id": "0375",
+        "start": 1313,
+        "rows": 264,
+        "full_rows": 264
+      },
+      {
+        "image_id": "0629",
+        "start": 1579,
+        "rows": 272,
+        "full_rows": 272
+      },
+      {
+        "image_id": "0447",
+        "start": 1853,
+        "rows": 148,
+        "full_rows": 260
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 185.89936216702336
+  },
+  {
+    "id": "train_007",
+    "split": "train",
+    "file": "sequences/train_007.npz",
+    "sha256": "a28b0b819c01a6f153a6d223f132d02e3fab67de0c85b3baf80e027c6cc8d84d",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0397",
+        "start": 5,
+        "rows": 252,
+        "full_rows": 252
+      },
+      {
+        "image_id": "0651",
+        "start": 259,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0028",
+        "start": 521,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0417",
+        "start": 789,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0314",
+        "start": 1051,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0654",
+        "start": 1313,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0197",
+        "start": 1575,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0661",
+        "start": 1837,
+        "rows": 164,
+        "full_rows": 266
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 210.3585960000055
+  },
+  {
+    "id": "train_008",
+    "split": "train",
+    "file": "sequences/train_008.npz",
+    "sha256": "c3cb4f1b379d99309183782831112d4d7c87ecd3c40d86f24c32d044fcd52ce0",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0189",
+        "start": 5,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0683",
+        "start": 273,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0761",
+        "start": 541,
+        "rows": 272,
+        "full_rows": 272
+      },
+      {
+        "image_id": "0771",
+        "start": 815,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0448",
+        "start": 1083,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0486",
+        "start": 1351,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0242",
+        "start": 1613,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0022",
+        "start": 1881,
+        "rows": 120,
+        "full_rows": 273
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 234.4725960000069
+  },
+  {
+    "id": "train_009",
+    "split": "train",
+    "file": "sequences/train_009.npz",
+    "sha256": "3ec255e6d7f225bf126ac7245501dd9a02ac9c267872ef69809de86acf9e6dbf",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0342",
+        "start": 5,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0368",
+        "start": 267,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0002",
+        "start": 529,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0730",
+        "start": 791,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0289",
+        "start": 1059,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0287",
+        "start": 1327,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0576",
+        "start": 1589,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0103",
+        "start": 1851,
+        "rows": 150,
+        "full_rows": 266
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 258.71751262500766
+  },
+  {
+    "id": "train_010",
+    "split": "train",
+    "file": "sequences/train_010.npz",
+    "sha256": "846231e40e5d4703dc20c1cb20cc1db40db9dc2ae61ccf1b0748bc8b457b6831",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0633",
+        "start": 5,
+        "rows": 264,
+        "full_rows": 264
+      },
+      {
+        "image_id": "0680",
+        "start": 271,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0217",
+        "start": 539,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0382",
+        "start": 807,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0224",
+        "start": 1075,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0392",
+        "start": 1343,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0347",
+        "start": 1605,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0203",
+        "start": 1873,
+        "rows": 128,
+        "full_rows": 256
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 282.9288161670265
+  },
+  {
+    "id": "train_011",
+    "split": "train",
+    "file": "sequences/train_011.npz",
+    "sha256": "9ea532f9327c7a2bc7b10c4298e6426e4c7806be01a7cadd7fd0832feddd958f",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0527",
+        "start": 5,
+        "rows": 273,
+        "full_rows": 273
+      },
+      {
+        "image_id": "0775",
+        "start": 280,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0236",
+        "start": 548,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0182",
+        "start": 816,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0571",
+        "start": 1084,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0373",
+        "start": 1352,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0262",
+        "start": 1614,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0746",
+        "start": 1876,
+        "rows": 125,
+        "full_rows": 275
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 307.2858532090031
+  },
+  {
+    "id": "train_012",
+    "split": "train",
+    "file": "sequences/train_012.npz",
+    "sha256": "592000b46fa694c1499b41dca4f5700d453e5d8358db96a4ab18412abd875789",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0292",
+        "start": 5,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0445",
+        "start": 273,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0389",
+        "start": 541,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0372",
+        "start": 803,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0770",
+        "start": 1071,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0715",
+        "start": 1333,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0225",
+        "start": 1601,
+        "rows": 273,
+        "full_rows": 273
+      },
+      {
+        "image_id": "0396",
+        "start": 1876,
+        "rows": 125,
+        "full_rows": 266
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 331.59958412501146
+  },
+  {
+    "id": "train_013",
+    "split": "train",
+    "file": "sequences/train_013.npz",
+    "sha256": "838398d14d789ed1e31e80171a3c9b177600769997f8ce0605e035ca69e74dd5",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0233",
+        "start": 5,
+        "rows": 256,
+        "full_rows": 256
+      },
+      {
+        "image_id": "0226",
+        "start": 263,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0483",
+        "start": 525,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0122",
+        "start": 787,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0209",
+        "start": 1055,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0802",
+        "start": 1317,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0720",
+        "start": 1579,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0298",
+        "start": 1847,
+        "rows": 154,
+        "full_rows": 266
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 355.26374354201835
+  },
+  {
+    "id": "train_014",
+    "split": "train",
+    "file": "sequences/train_014.npz",
+    "sha256": "1e611ef371a8e263af210e66d8155171cee18e068690fbd040fef173f2fdb892",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0471",
+        "start": 5,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0081",
+        "start": 273,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0186",
+        "start": 535,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0567",
+        "start": 803,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0585",
+        "start": 1065,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0107",
+        "start": 1327,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0332",
+        "start": 1589,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0105",
+        "start": 1851,
+        "rows": 150,
+        "full_rows": 260
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 379.7525177920179
+  },
+  {
+    "id": "train_015",
+    "split": "train",
+    "file": "sequences/train_015.npz",
+    "sha256": "fe5d8c7f2262655d8427d71160d4933de425c93278f28cadaf914f8370fb3e47",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0436",
+        "start": 5,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0542",
+        "start": 273,
+        "rows": 253,
+        "full_rows": 253
+      },
+      {
+        "image_id": "0704",
+        "start": 528,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0493",
+        "start": 790,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0491",
+        "start": 1052,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0458",
+        "start": 1320,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0639",
+        "start": 1588,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0065",
+        "start": 1850,
+        "rows": 151,
+        "full_rows": 266
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 404.0931313340261
+  },
+  {
+    "id": "train_016",
+    "split": "train",
+    "file": "sequences/train_016.npz",
+    "sha256": "d1b5ddbb135b6a9a4cee87796ddbf02d3fde89a7b2fcbe9d9d6db0e0ced7ef87",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0526",
+        "start": 5,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0779",
+        "start": 267,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0787",
+        "start": 529,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0586",
+        "start": 797,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0201",
+        "start": 1065,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0115",
+        "start": 1333,
+        "rows": 273,
+        "full_rows": 273
+      },
+      {
+        "image_id": "0419",
+        "start": 1608,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0667",
+        "start": 1870,
+        "rows": 131,
+        "full_rows": 260
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 428.54401383400545
+  },
+  {
+    "id": "train_017",
+    "split": "train",
+    "file": "sequences/train_017.npz",
+    "sha256": "f5a943ba8ce7ffeb304902642bb9000a7e748d7c0642e7c763e3a0450e80fb7b",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0574",
+        "start": 5,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0110",
+        "start": 273,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0712",
+        "start": 535,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0021",
+        "start": 803,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0101",
+        "start": 1065,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0537",
+        "start": 1333,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0343",
+        "start": 1595,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0017",
+        "start": 1863,
+        "rows": 138,
+        "full_rows": 266
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 453.05066700000316
+  },
+  {
+    "id": "train_018",
+    "split": "train",
+    "file": "sequences/train_018.npz",
+    "sha256": "b6f75bba1aa617864ee55a38fab3d54b297e8349d7d4c7472768a3ecf044f731",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0792",
+        "start": 5,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0649",
+        "start": 273,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0729",
+        "start": 541,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0335",
+        "start": 809,
+        "rows": 273,
+        "full_rows": 273
+      },
+      {
+        "image_id": "0499",
+        "start": 1084,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0131",
+        "start": 1352,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0752",
+        "start": 1614,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0543",
+        "start": 1876,
+        "rows": 125,
+        "full_rows": 266
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 477.432844792027
+  },
+  {
+    "id": "train_019",
+    "split": "train",
+    "file": "sequences/train_019.npz",
+    "sha256": "a6c35811a0c3627da9944def1372918d9133099e5633e695fdc658143d640c12",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0434",
+        "start": 5,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0488",
+        "start": 273,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0330",
+        "start": 535,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0437",
+        "start": 803,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0358",
+        "start": 1071,
+        "rows": 255,
+        "full_rows": 255
+      },
+      {
+        "image_id": "0305",
+        "start": 1328,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0227",
+        "start": 1590,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0631",
+        "start": 1852,
+        "rows": 149,
+        "full_rows": 266
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 501.645808375004
+  },
+  {
+    "id": "train_020",
+    "split": "train",
+    "file": "sequences/train_020.npz",
+    "sha256": "671753f7e6fa91d11c38b0055079accdfffed32fbe9be6f63174a761ac288fc4",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0795",
+        "start": 5,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0206",
+        "start": 267,
+        "rows": 252,
+        "full_rows": 252
+      },
+      {
+        "image_id": "0220",
+        "start": 521,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0384",
+        "start": 789,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0605",
+        "start": 1057,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0558",
+        "start": 1319,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0349",
+        "start": 1587,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0794",
+        "start": 1849,
+        "rows": 152,
+        "full_rows": 266
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 526.1338367500284
+  },
+  {
+    "id": "train_021",
+    "split": "train",
+    "file": "sequences/train_021.npz",
+    "sha256": "d69828ecb73fe37efae864b940c95eeb47d9d62b9dfdf44e6c277495152aa9a2",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0033",
+        "start": 5,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0621",
+        "start": 273,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0760",
+        "start": 541,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0482",
+        "start": 803,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0699",
+        "start": 1065,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0475",
+        "start": 1333,
+        "rows": 252,
+        "full_rows": 252
+      },
+      {
+        "image_id": "0739",
+        "start": 1587,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0037",
+        "start": 1849,
+        "rows": 152,
+        "full_rows": 260
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 550.3994037500233
+  },
+  {
+    "id": "train_022",
+    "split": "train",
+    "file": "sequences/train_022.npz",
+    "sha256": "5f46b14328d6396b211e95b35c1a2e0992a60b43f13089033c10933bd0e8ca91",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0222",
+        "start": 5,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0682",
+        "start": 273,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0772",
+        "start": 541,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0813",
+        "start": 809,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0687",
+        "start": 1077,
+        "rows": 256,
+        "full_rows": 256
+      },
+      {
+        "image_id": "0662",
+        "start": 1335,
+        "rows": 255,
+        "full_rows": 255
+      },
+      {
+        "image_id": "0003",
+        "start": 1592,
+        "rows": 270,
+        "full_rows": 270
+      },
+      {
+        "image_id": "0812",
+        "start": 1864,
+        "rows": 137,
+        "full_rows": 260
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 575.1363975840213
+  },
+  {
+    "id": "train_023",
+    "split": "train",
+    "file": "sequences/train_023.npz",
+    "sha256": "941b0dc1e2ffaa58f4c34e50e617dd65f8c3029c2db9c6461d8d0214223c8584",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0508",
+        "start": 5,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0303",
+        "start": 267,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0786",
+        "start": 535,
+        "rows": 264,
+        "full_rows": 264
+      },
+      {
+        "image_id": "0607",
+        "start": 801,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0369",
+        "start": 1069,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0755",
+        "start": 1331,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0184",
+        "start": 1593,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0380",
+        "start": 1855,
+        "rows": 146,
+        "full_rows": 266
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 599.6669107090274
+  },
+  {
+    "id": "train_024",
+    "split": "train",
+    "file": "sequences/train_024.npz",
+    "sha256": "377806d22f961e0df0b87be7ca73c21ba0f5f792ca26e2c22752442a1ce5060e",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0725",
+        "start": 5,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0361",
+        "start": 267,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0442",
+        "start": 535,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0671",
+        "start": 797,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0444",
+        "start": 1065,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0393",
+        "start": 1333,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0646",
+        "start": 1595,
+        "rows": 264,
+        "full_rows": 264
+      },
+      {
+        "image_id": "0080",
+        "start": 1861,
+        "rows": 140,
+        "full_rows": 256
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 623.9821725420188
+  },
+  {
+    "id": "train_025",
+    "split": "train",
+    "file": "sequences/train_025.npz",
+    "sha256": "cffacf45d28341eb47ddf477033525c187dfc5c34cefdec5af467ff5048dd4cb",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0484",
+        "start": 5,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0531",
+        "start": 273,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0230",
+        "start": 535,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0544",
+        "start": 803,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0555",
+        "start": 1065,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0745",
+        "start": 1333,
+        "rows": 255,
+        "full_rows": 255
+      },
+      {
+        "image_id": "0570",
+        "start": 1590,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0192",
+        "start": 1858,
+        "rows": 143,
+        "full_rows": 260
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 648.5661932920048
+  },
+  {
+    "id": "train_026",
+    "split": "train",
+    "file": "sequences/train_026.npz",
+    "sha256": "d84ea2a803fdb48d4613ae12cbe0340ad070fd6419d835305e914514431284f4",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0532",
+        "start": 5,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0678",
+        "start": 267,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0614",
+        "start": 529,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0277",
+        "start": 791,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0258",
+        "start": 1053,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0625",
+        "start": 1321,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0777",
+        "start": 1589,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0642",
+        "start": 1851,
+        "rows": 150,
+        "full_rows": 266
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 673.1682081250183
+  },
+  {
+    "id": "train_027",
+    "split": "train",
+    "file": "sequences/train_027.npz",
+    "sha256": "92d953d885412525d91fa4999aa823717e0c5e427c2e43c806d44b0f61f667c9",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0248",
+        "start": 5,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0085",
+        "start": 273,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0406",
+        "start": 541,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0686",
+        "start": 809,
+        "rows": 252,
+        "full_rows": 252
+      },
+      {
+        "image_id": "0559",
+        "start": 1063,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0684",
+        "start": 1331,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0784",
+        "start": 1593,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0329",
+        "start": 1861,
+        "rows": 140,
+        "full_rows": 260
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 697.485705500003
+  },
+  {
+    "id": "train_028",
+    "split": "train",
+    "file": "sequences/train_028.npz",
+    "sha256": "09455c4fde83e3aebade45bbe9cc196e0b769a699b50b6eedc87f4205771368e",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0163",
+        "start": 5,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0244",
+        "start": 273,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0410",
+        "start": 541,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0696",
+        "start": 809,
+        "rows": 272,
+        "full_rows": 272
+      },
+      {
+        "image_id": "0156",
+        "start": 1083,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0089",
+        "start": 1345,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0423",
+        "start": 1613,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0047",
+        "start": 1875,
+        "rows": 126,
+        "full_rows": 260
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 721.760998792015
+  },
+  {
+    "id": "train_029",
+    "split": "train",
+    "file": "sequences/train_029.npz",
+    "sha256": "c52f4d80248470bc3979bf048d5dce3920f1752ce719dcca6d6c4d394c809c00",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0185",
+        "start": 5,
+        "rows": 264,
+        "full_rows": 264
+      },
+      {
+        "image_id": "0374",
+        "start": 271,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0427",
+        "start": 539,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0126",
+        "start": 807,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0816",
+        "start": 1069,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0426",
+        "start": 1331,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0125",
+        "start": 1599,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0511",
+        "start": 1867,
+        "rows": 134,
+        "full_rows": 260
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 746.6126893340261
+  },
+  {
+    "id": "train_030",
+    "split": "train",
+    "file": "sequences/train_030.npz",
+    "sha256": "9e2445da79b14681cfa700570134197e44e63b22799db4b2ad4d6e35aff5e7a7",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0494",
+        "start": 5,
+        "rows": 256,
+        "full_rows": 256
+      },
+      {
+        "image_id": "0723",
+        "start": 263,
+        "rows": 252,
+        "full_rows": 252
+      },
+      {
+        "image_id": "0260",
+        "start": 517,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0645",
+        "start": 779,
+        "rows": 256,
+        "full_rows": 256
+      },
+      {
+        "image_id": "0095",
+        "start": 1037,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0583",
+        "start": 1305,
+        "rows": 270,
+        "full_rows": 270
+      },
+      {
+        "image_id": "0304",
+        "start": 1577,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0685",
+        "start": 1845,
+        "rows": 156,
+        "full_rows": 260
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 770.5876580840268
+  },
+  {
+    "id": "train_031",
+    "split": "train",
+    "file": "sequences/train_031.npz",
+    "sha256": "77bbd04d84780bbeb3113fd90ea20e63093ac9c88da35f552cd21e7b1d4223be",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0038",
+        "start": 5,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0766",
+        "start": 273,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0630",
+        "start": 535,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0505",
+        "start": 797,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0354",
+        "start": 1059,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0441",
+        "start": 1327,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0076",
+        "start": 1595,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0538",
+        "start": 1857,
+        "rows": 144,
+        "full_rows": 270
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 794.8366170000227
+  },
+  {
+    "id": "train_032",
+    "split": "train",
+    "file": "sequences/train_032.npz",
+    "sha256": "663672a375a757e1ff10edcf7cc46538f1d6e5abb87758846480c10c5fa601d6",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0083",
+        "start": 5,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0763",
+        "start": 273,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0522",
+        "start": 535,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0806",
+        "start": 803,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0600",
+        "start": 1071,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0552",
+        "start": 1339,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0336",
+        "start": 1601,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0479",
+        "start": 1863,
+        "rows": 138,
+        "full_rows": 266
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 818.8864238340175
+  },
+  {
+    "id": "train_033",
+    "split": "train",
+    "file": "sequences/train_033.npz",
+    "sha256": "1f5e886a3418cde5ebed48410bcf073d7ae92cf7c7283312880ae3fd4807f5e0",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0136",
+        "start": 5,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0456",
+        "start": 267,
+        "rows": 256,
+        "full_rows": 256
+      },
+      {
+        "image_id": "0299",
+        "start": 525,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0668",
+        "start": 787,
+        "rows": 252,
+        "full_rows": 252
+      },
+      {
+        "image_id": "0148",
+        "start": 1041,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0820",
+        "start": 1303,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0714",
+        "start": 1565,
+        "rows": 264,
+        "full_rows": 264
+      },
+      {
+        "image_id": "0634",
+        "start": 1831,
+        "rows": 170,
+        "full_rows": 266
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 843.1612714170187
+  },
+  {
+    "id": "train_034",
+    "split": "train",
+    "file": "sequences/train_034.npz",
+    "sha256": "95713755f2b94e0fcc679d5356939f7c3f64898127b4a950123f8cea547664d1",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0181",
+        "start": 5,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0432",
+        "start": 267,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0443",
+        "start": 529,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0183",
+        "start": 791,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0202",
+        "start": 1053,
+        "rows": 256,
+        "full_rows": 256
+      },
+      {
+        "image_id": "0274",
+        "start": 1311,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0774",
+        "start": 1579,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0066",
+        "start": 1841,
+        "rows": 160,
+        "full_rows": 266
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 867.2459485840227
+  },
+  {
+    "id": "train_035",
+    "split": "train",
+    "file": "sequences/train_035.npz",
+    "sha256": "1782972a544793b392d32345133f76d0973565c21788915da70243589c9b8b3b",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0666",
+        "start": 5,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0239",
+        "start": 267,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0008",
+        "start": 535,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0413",
+        "start": 803,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0549",
+        "start": 1071,
+        "rows": 252,
+        "full_rows": 252
+      },
+      {
+        "image_id": "0539",
+        "start": 1325,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0243",
+        "start": 1593,
+        "rows": 273,
+        "full_rows": 273
+      },
+      {
+        "image_id": "0590",
+        "start": 1868,
+        "rows": 133,
+        "full_rows": 273
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 891.1858756670263
+  },
+  {
+    "id": "train_036",
+    "split": "train",
+    "file": "sequences/train_036.npz",
+    "sha256": "f336db46f0a3fe3e1dfab17001f28ff88152430c5a651f82bcfa97370cc78e10",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0157",
+        "start": 5,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0703",
+        "start": 273,
+        "rows": 264,
+        "full_rows": 264
+      },
+      {
+        "image_id": "0644",
+        "start": 539,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0269",
+        "start": 801,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0351",
+        "start": 1063,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0640",
+        "start": 1325,
+        "rows": 256,
+        "full_rows": 256
+      },
+      {
+        "image_id": "0350",
+        "start": 1583,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0191",
+        "start": 1851,
+        "rows": 150,
+        "full_rows": 266
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 915.3581906250038
+  },
+  {
+    "id": "train_037",
+    "split": "train",
+    "file": "sequences/train_037.npz",
+    "sha256": "811181b3ad4023f5aac69af19b4ce8db801ad70f59ed054a51ab8f6f25628e48",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0116",
+        "start": 5,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0268",
+        "start": 273,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0535",
+        "start": 535,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0450",
+        "start": 803,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0228",
+        "start": 1065,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0781",
+        "start": 1333,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0736",
+        "start": 1595,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0309",
+        "start": 1863,
+        "rows": 138,
+        "full_rows": 252
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 939.9546093750105
+  },
+  {
+    "id": "train_038",
+    "split": "train",
+    "file": "sequences/train_038.npz",
+    "sha256": "0b58c88180d6d96295ab554f701c78a5faa7787b392c623605c0bc99c5beed2a",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0636",
+        "start": 5,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0758",
+        "start": 267,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0589",
+        "start": 535,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0091",
+        "start": 803,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0626",
+        "start": 1071,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0476",
+        "start": 1333,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0178",
+        "start": 1601,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0588",
+        "start": 1863,
+        "rows": 138,
+        "full_rows": 266
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 964.5897401250259
+  },
+  {
+    "id": "train_039",
+    "split": "train",
+    "file": "sequences/train_039.npz",
+    "sha256": "fa2a43a27d032efad205e8009516f08d0edc5ed036e95f59d33a78164a033e2a",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0664",
+        "start": 5,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0408",
+        "start": 267,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0713",
+        "start": 535,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0310",
+        "start": 803,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0144",
+        "start": 1065,
+        "rows": 255,
+        "full_rows": 255
+      },
+      {
+        "image_id": "0311",
+        "start": 1322,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0340",
+        "start": 1584,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0297",
+        "start": 1852,
+        "rows": 149,
+        "full_rows": 266
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 988.9504142500227
+  },
+  {
+    "id": "train_040",
+    "split": "train",
+    "file": "sequences/train_040.npz",
+    "sha256": "9d192dbf48b512adddd7a7b013777a333eac98f51120f1c1a86c8144f1a4b056",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0106",
+        "start": 5,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0193",
+        "start": 267,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0019",
+        "start": 529,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0165",
+        "start": 791,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0062",
+        "start": 1053,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0454",
+        "start": 1321,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0141",
+        "start": 1589,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0391",
+        "start": 1851,
+        "rows": 150,
+        "full_rows": 260
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 1013.5163156670169
+  },
+  {
+    "id": "train_041",
+    "split": "train",
+    "file": "sequences/train_041.npz",
+    "sha256": "308a46bb7bd4f19192a28a4f4be16e07f6d370953fd3ab10c53269131ee153b6",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0044",
+        "start": 5,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0231",
+        "start": 267,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0034",
+        "start": 535,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0641",
+        "start": 803,
+        "rows": 273,
+        "full_rows": 273
+      },
+      {
+        "image_id": "0467",
+        "start": 1078,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0004",
+        "start": 1340,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0514",
+        "start": 1608,
+        "rows": 272,
+        "full_rows": 272
+      },
+      {
+        "image_id": "0742",
+        "start": 1882,
+        "rows": 119,
+        "full_rows": 273
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 1037.88197133402
+  },
+  {
+    "id": "train_042",
+    "split": "train",
+    "file": "sequences/train_042.npz",
+    "sha256": "9c05bcb33bb1f2a22351cf997c0679e92493ae92413bd58de912d5324b4073bf",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0620",
+        "start": 5,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0584",
+        "start": 273,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0164",
+        "start": 541,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0031",
+        "start": 803,
+        "rows": 264,
+        "full_rows": 264
+      },
+      {
+        "image_id": "0710",
+        "start": 1069,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0302",
+        "start": 1337,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0250",
+        "start": 1605,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0049",
+        "start": 1873,
+        "rows": 128,
+        "full_rows": 266
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 1062.3442601250135
+  },
+  {
+    "id": "train_043",
+    "split": "train",
+    "file": "sequences/train_043.npz",
+    "sha256": "90b92f152cc8560187736f4ee1c269a0bfc8cb2cd0fc4c6894097b3ab40a14bf",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0501",
+        "start": 5,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0581",
+        "start": 273,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0112",
+        "start": 535,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0474",
+        "start": 797,
+        "rows": 264,
+        "full_rows": 264
+      },
+      {
+        "image_id": "0323",
+        "start": 1063,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0267",
+        "start": 1331,
+        "rows": 280,
+        "full_rows": 280
+      },
+      {
+        "image_id": "0320",
+        "start": 1613,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0383",
+        "start": 1875,
+        "rows": 126,
+        "full_rows": 260
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 1086.8835664170037
+  },
+  {
+    "id": "train_044",
+    "split": "train",
+    "file": "sequences/train_044.npz",
+    "sha256": "8e2a303969eb27fe17375a228f74f555772ef8616a293f0b0c2b69841b63e2b2",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0546",
+        "start": 5,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0599",
+        "start": 273,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0265",
+        "start": 535,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0716",
+        "start": 803,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0801",
+        "start": 1065,
+        "rows": 273,
+        "full_rows": 273
+      },
+      {
+        "image_id": "0045",
+        "start": 1340,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0676",
+        "start": 1608,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0756",
+        "start": 1870,
+        "rows": 131,
+        "full_rows": 260
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 1111.5698327090067
+  },
+  {
+    "id": "train_045",
+    "split": "train",
+    "file": "sequences/train_045.npz",
+    "sha256": "a4b8c91868b73797f68f321d46217b4b6326932bdcf624e6965fe4ccf380a2bb",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0533",
+        "start": 5,
+        "rows": 256,
+        "full_rows": 256
+      },
+      {
+        "image_id": "0057",
+        "start": 263,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0525",
+        "start": 531,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0502",
+        "start": 799,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0345",
+        "start": 1067,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0041",
+        "start": 1335,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0597",
+        "start": 1603,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0613",
+        "start": 1871,
+        "rows": 130,
+        "full_rows": 266
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 1136.6066802090209
+  },
+  {
+    "id": "train_046",
+    "split": "train",
+    "file": "sequences/train_046.npz",
+    "sha256": "5d3ba7b1ce670be24d6b4d403eec205ae2037c01be97d294777a68b33e7e677c",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0561",
+        "start": 5,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0210",
+        "start": 273,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0718",
+        "start": 535,
+        "rows": 264,
+        "full_rows": 264
+      },
+      {
+        "image_id": "0462",
+        "start": 801,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0175",
+        "start": 1063,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0697",
+        "start": 1331,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0733",
+        "start": 1593,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0523",
+        "start": 1855,
+        "rows": 146,
+        "full_rows": 255
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 1161.0746867920097
+  },
+  {
+    "id": "train_047",
+    "split": "train",
+    "file": "sequences/train_047.npz",
+    "sha256": "19e152307e527374cd0304334c3ec4527c85e5da53d6ebc8e482b0a3e6dedb95",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0418",
+        "start": 5,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0014",
+        "start": 267,
+        "rows": 255,
+        "full_rows": 255
+      },
+      {
+        "image_id": "0275",
+        "start": 524,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0240",
+        "start": 786,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0780",
+        "start": 1048,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0658",
+        "start": 1316,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0119",
+        "start": 1578,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0566",
+        "start": 1846,
+        "rows": 155,
+        "full_rows": 260
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 1185.3359572500049
+  },
+  {
+    "id": "train_048",
+    "split": "train",
+    "file": "sequences/train_048.npz",
+    "sha256": "bc3f9c96fc06eb69588b5428a97f08e51b1c9549a5d6e688ad63c4635ff5372c",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0496",
+        "start": 5,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0077",
+        "start": 273,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0403",
+        "start": 535,
+        "rows": 273,
+        "full_rows": 273
+      },
+      {
+        "image_id": "0811",
+        "start": 810,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0188",
+        "start": 1072,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0315",
+        "start": 1340,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0691",
+        "start": 1602,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0023",
+        "start": 1870,
+        "rows": 131,
+        "full_rows": 260
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 1209.7691877920006
+  },
+  {
+    "id": "train_049",
+    "split": "train",
+    "file": "sequences/train_049.npz",
+    "sha256": "4e468c1b084f86cd8ea5574b2237e21959a1b60c7b8955d17d625db1df5d4da4",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0759",
+        "start": 5,
+        "rows": 264,
+        "full_rows": 264
+      },
+      {
+        "image_id": "0333",
+        "start": 271,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0455",
+        "start": 539,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0689",
+        "start": 807,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0807",
+        "start": 1069,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0322",
+        "start": 1337,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0127",
+        "start": 1605,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0503",
+        "start": 1873,
+        "rows": 128,
+        "full_rows": 266
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 1234.0250274170248
+  },
+  {
+    "id": "train_050",
+    "split": "train",
+    "file": "sequences/train_050.npz",
+    "sha256": "a6f3368752003019be672ab316f7ad7bd3a5b177806ff56d1fb78b8b5873ae0a",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0591",
+        "start": 5,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0757",
+        "start": 267,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0054",
+        "start": 535,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0439",
+        "start": 797,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0489",
+        "start": 1065,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0129",
+        "start": 1333,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0097",
+        "start": 1601,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0452",
+        "start": 1863,
+        "rows": 138,
+        "full_rows": 266
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 1258.4791575840209
+  },
+  {
+    "id": "train_051",
+    "split": "train",
+    "file": "sequences/train_051.npz",
+    "sha256": "b8b2e452d57305bdce5e4ad8e311284fec030652f386870ff45639860e111475",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0698",
+        "start": 5,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0799",
+        "start": 267,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0153",
+        "start": 535,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0495",
+        "start": 803,
+        "rows": 264,
+        "full_rows": 264
+      },
+      {
+        "image_id": "0261",
+        "start": 1069,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0246",
+        "start": 1337,
+        "rows": 256,
+        "full_rows": 256
+      },
+      {
+        "image_id": "0194",
+        "start": 1595,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0638",
+        "start": 1863,
+        "rows": 138,
+        "full_rows": 260
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 1282.8583442500094
+  },
+  {
+    "id": "train_052",
+    "split": "train",
+    "file": "sequences/train_052.npz",
+    "sha256": "9e8a0f58daec0f09c683964ef5dac73805871394721a28b054bf2288bc458309",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0521",
+        "start": 5,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0306",
+        "start": 267,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0190",
+        "start": 535,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0059",
+        "start": 803,
+        "rows": 255,
+        "full_rows": 255
+      },
+      {
+        "image_id": "0463",
+        "start": 1060,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0431",
+        "start": 1328,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0622",
+        "start": 1590,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0693",
+        "start": 1852,
+        "rows": 149,
+        "full_rows": 266
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 1307.9681596670125
+  },
+  {
+    "id": "train_053",
+    "split": "train",
+    "file": "sequences/train_053.npz",
+    "sha256": "f121020073aa9c6a93b087874928f28d8610d5ff180ea75ff3378ca329c6edcc",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0327",
+        "start": 5,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0815",
+        "start": 273,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0036",
+        "start": 541,
+        "rows": 270,
+        "full_rows": 270
+      },
+      {
+        "image_id": "0647",
+        "start": 813,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0572",
+        "start": 1081,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0469",
+        "start": 1349,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0609",
+        "start": 1617,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0346",
+        "start": 1885,
+        "rows": 116,
+        "full_rows": 266
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 1332.523563292023
+  },
+  {
+    "id": "train_054",
+    "split": "train",
+    "file": "sequences/train_054.npz",
+    "sha256": "698afaf3b5178f77e77ab252d181a08e25299ab87a3b8b35448aad7c70e1ca0b",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0339",
+        "start": 5,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0540",
+        "start": 267,
+        "rows": 270,
+        "full_rows": 270
+      },
+      {
+        "image_id": "0610",
+        "start": 539,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0318",
+        "start": 801,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0270",
+        "start": 1063,
+        "rows": 256,
+        "full_rows": 256
+      },
+      {
+        "image_id": "0617",
+        "start": 1321,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0700",
+        "start": 1583,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0612",
+        "start": 1845,
+        "rows": 156,
+        "full_rows": 252
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 1357.0873845840106
+  },
+  {
+    "id": "train_055",
+    "split": "train",
+    "file": "sequences/train_055.npz",
+    "sha256": "de030c2ba018d047149cfe3055398b79083020ad961788d7a2ca282036e6b707",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0102",
+        "start": 5,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0457",
+        "start": 267,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0214",
+        "start": 529,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0702",
+        "start": 791,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0743",
+        "start": 1059,
+        "rows": 272,
+        "full_rows": 272
+      },
+      {
+        "image_id": "0312",
+        "start": 1333,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0405",
+        "start": 1595,
+        "rows": 270,
+        "full_rows": 270
+      },
+      {
+        "image_id": "0400",
+        "start": 1867,
+        "rows": 134,
+        "full_rows": 260
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 1383.0581523750152
+  },
+  {
+    "id": "train_056",
+    "split": "train",
+    "file": "sequences/train_056.npz",
+    "sha256": "e563db133666ab2879569a1c04e866f16856caae2a5edf29bfc210798bbc9d84",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0168",
+        "start": 5,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0706",
+        "start": 267,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0071",
+        "start": 535,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0294",
+        "start": 797,
+        "rows": 255,
+        "full_rows": 255
+      },
+      {
+        "image_id": "0377",
+        "start": 1054,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0655",
+        "start": 1316,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0657",
+        "start": 1578,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0623",
+        "start": 1840,
+        "rows": 161,
+        "full_rows": 260
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 1408.0008582920127
+  },
+  {
+    "id": "train_057",
+    "split": "train",
+    "file": "sequences/train_057.npz",
+    "sha256": "de6ece639bb3be07d1598b8043a9b42c70b2cfb0a05b00de0c4ba531a6d1576c",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0337",
+        "start": 5,
+        "rows": 252,
+        "full_rows": 252
+      },
+      {
+        "image_id": "0321",
+        "start": 259,
+        "rows": 252,
+        "full_rows": 252
+      },
+      {
+        "image_id": "0709",
+        "start": 513,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0348",
+        "start": 781,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0232",
+        "start": 1043,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0273",
+        "start": 1305,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0029",
+        "start": 1567,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0510",
+        "start": 1829,
+        "rows": 172,
+        "full_rows": 260
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 1432.0041063340032
+  },
+  {
+    "id": "train_058",
+    "split": "train",
+    "file": "sequences/train_058.npz",
+    "sha256": "e7f74d24471d5f6b601ddef12da92126548deeb27059326810c6452e625e1c3a",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0039",
+        "start": 5,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0674",
+        "start": 267,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0453",
+        "start": 529,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0319",
+        "start": 797,
+        "rows": 252,
+        "full_rows": 252
+      },
+      {
+        "image_id": "0064",
+        "start": 1051,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0673",
+        "start": 1313,
+        "rows": 256,
+        "full_rows": 256
+      },
+      {
+        "image_id": "0238",
+        "start": 1571,
+        "rows": 272,
+        "full_rows": 272
+      },
+      {
+        "image_id": "0721",
+        "start": 1845,
+        "rows": 156,
+        "full_rows": 266
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 1455.9852725000237
+  },
+  {
+    "id": "train_059",
+    "split": "train",
+    "file": "sequences/train_059.npz",
+    "sha256": "a37483316a3a7c55e7ce9d07c569f35fd1cee40b658a4ef7c217d7956997d5e5",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0477",
+        "start": 5,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0208",
+        "start": 267,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0307",
+        "start": 529,
+        "rows": 264,
+        "full_rows": 264
+      },
+      {
+        "image_id": "0249",
+        "start": 795,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0785",
+        "start": 1057,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0809",
+        "start": 1319,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0727",
+        "start": 1581,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0050",
+        "start": 1843,
+        "rows": 158,
+        "full_rows": 266
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 1480.556163125002
+  },
+  {
+    "id": "validation_060",
+    "split": "validation",
+    "file": "sequences/validation_060.npz",
+    "sha256": "87592c46f89b10396be692c12a1738096928cecc8523ea552ef530fcabb6088f",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0843",
+        "start": 5,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0898",
+        "start": 267,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0842",
+        "start": 529,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0864",
+        "start": 797,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0878",
+        "start": 1065,
+        "rows": 252,
+        "full_rows": 252
+      },
+      {
+        "image_id": "0042",
+        "start": 1319,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0877",
+        "start": 1581,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0893",
+        "start": 1843,
+        "rows": 158,
+        "full_rows": 266
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 1505.0979188750207
+  },
+  {
+    "id": "validation_061",
+    "split": "validation",
+    "file": "sequences/validation_061.npz",
+    "sha256": "4f5054d5a02135679403cb942407f1f9e1dee6ea33d459542ee4557a2a9a02c0",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0860",
+        "start": 5,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0847",
+        "start": 267,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0881",
+        "start": 529,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0873",
+        "start": 797,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0858",
+        "start": 1059,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0854",
+        "start": 1321,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0907",
+        "start": 1583,
+        "rows": 270,
+        "full_rows": 270
+      },
+      {
+        "image_id": "0885",
+        "start": 1855,
+        "rows": 146,
+        "full_rows": 260
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 1529.5968526250217
+  },
+  {
+    "id": "validation_062",
+    "split": "validation",
+    "file": "sequences/validation_062.npz",
+    "sha256": "57f6205a4ac89c6846a3cb2e489e7c99923b6ce46950f05ed67aeeedfd73ed75",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0013",
+        "start": 5,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0905",
+        "start": 267,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0856",
+        "start": 535,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0884",
+        "start": 797,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0823",
+        "start": 1059,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0839",
+        "start": 1327,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0838",
+        "start": 1589,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0849",
+        "start": 1851,
+        "rows": 150,
+        "full_rows": 266
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 1554.0601076250023
+  },
+  {
+    "id": "validation_063",
+    "split": "validation",
+    "file": "sequences/validation_063.npz",
+    "sha256": "77d199b2f757600a1165dba28b0815c628911b1fcbda13e2d6f3a061972b96af",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0900",
+        "start": 5,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0859",
+        "start": 273,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0902",
+        "start": 541,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0861",
+        "start": 809,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0852",
+        "start": 1077,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0845",
+        "start": 1345,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0063",
+        "start": 1607,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0830",
+        "start": 1869,
+        "rows": 132,
+        "full_rows": 260
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 1578.6899824170105
+  },
+  {
+    "id": "validation_064",
+    "split": "validation",
+    "file": "sequences/validation_064.npz",
+    "sha256": "7a9e82f19fb353010fd2c6d4ec2643164d0ef12dbe5161d9d3e4a151f4ab28a9",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0848",
+        "start": 5,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0897",
+        "start": 273,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0870",
+        "start": 535,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0895",
+        "start": 797,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0851",
+        "start": 1065,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0883",
+        "start": 1333,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0821",
+        "start": 1601,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0876",
+        "start": 1869,
+        "rows": 132,
+        "full_rows": 260
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 1602.966782042
+  },
+  {
+    "id": "validation_065",
+    "split": "validation",
+    "file": "sequences/validation_065.npz",
+    "sha256": "8b6222b465a9eba63f4eb5a78665a0e572e425e238df527bae97a2048d785816",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0834",
+        "start": 5,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0908",
+        "start": 273,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0827",
+        "start": 535,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0887",
+        "start": 803,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0056",
+        "start": 1065,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0889",
+        "start": 1333,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0872",
+        "start": 1601,
+        "rows": 256,
+        "full_rows": 256
+      },
+      {
+        "image_id": "0072",
+        "start": 1859,
+        "rows": 142,
+        "full_rows": 260
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 1627.0471324590035
+  },
+  {
+    "id": "validation_066",
+    "split": "validation",
+    "file": "sequences/validation_066.npz",
+    "sha256": "f5bf3bbc65861182c2dd5b775cd3f81f50986c285ed737b0b6a91b6e2276bbf3",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0824",
+        "start": 5,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0909",
+        "start": 273,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0844",
+        "start": 541,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0890",
+        "start": 809,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0863",
+        "start": 1077,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0829",
+        "start": 1339,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0892",
+        "start": 1601,
+        "rows": 270,
+        "full_rows": 270
+      },
+      {
+        "image_id": "0837",
+        "start": 1873,
+        "rows": 128,
+        "full_rows": 260
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 1652.3497457920166
+  },
+  {
+    "id": "validation_067",
+    "split": "validation",
+    "file": "sequences/validation_067.npz",
+    "sha256": "b880604150680b4ca70d8c69b8807aca40c29713908bb99ecad08d186fe53aa0",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0882",
+        "start": 5,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0888",
+        "start": 267,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0825",
+        "start": 529,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0891",
+        "start": 791,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0822",
+        "start": 1053,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0082",
+        "start": 1321,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0846",
+        "start": 1589,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0862",
+        "start": 1857,
+        "rows": 144,
+        "full_rows": 266
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 1678.7978091250116
+  },
+  {
+    "id": "validation_068",
+    "split": "validation",
+    "file": "sequences/validation_068.npz",
+    "sha256": "77491dd94a86c7ee95be63e38c4270096bc6321082fc589ad21e5f470c1d3ece",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0018",
+        "start": 5,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0899",
+        "start": 273,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0875",
+        "start": 541,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0896",
+        "start": 803,
+        "rows": 264,
+        "full_rows": 264
+      },
+      {
+        "image_id": "0857",
+        "start": 1069,
+        "rows": 264,
+        "full_rows": 264
+      },
+      {
+        "image_id": "0855",
+        "start": 1335,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0833",
+        "start": 1597,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0871",
+        "start": 1859,
+        "rows": 142,
+        "full_rows": 266
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 1703.17524112502
+  },
+  {
+    "id": "validation_069",
+    "split": "validation",
+    "file": "sequences/validation_069.npz",
+    "sha256": "f291dd92d5597dccb538e63f21a176d88698135b79ad3d0da0a55ed2b795d65f",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0869",
+        "start": 5,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0100",
+        "start": 273,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0831",
+        "start": 535,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0093",
+        "start": 803,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0868",
+        "start": 1065,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0867",
+        "start": 1333,
+        "rows": 276,
+        "full_rows": 276
+      },
+      {
+        "image_id": "0074",
+        "start": 1611,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0832",
+        "start": 1873,
+        "rows": 128,
+        "full_rows": 260
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 1727.240614667011
+  },
+  {
+    "id": "test_070",
+    "split": "test",
+    "file": "sequences/test_070.npz",
+    "sha256": "35d197a02b6552187d76b9189dd4e83fc2bc52a40d9365abe2aa6040571f2465",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0975",
+        "start": 5,
+        "rows": 270,
+        "full_rows": 270
+      },
+      {
+        "image_id": "0940",
+        "start": 277,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0998",
+        "start": 545,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0987",
+        "start": 807,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0938",
+        "start": 1069,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0918",
+        "start": 1337,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0941",
+        "start": 1605,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0919",
+        "start": 1867,
+        "rows": 134,
+        "full_rows": 252
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 1751.6827575839998
+  },
+  {
+    "id": "test_071",
+    "split": "test",
+    "file": "sequences/test_071.npz",
+    "sha256": "503d1b6df6f255f7241c13a18f5256df8470342046ee718f03b4c51c9e5cd8d8",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0078",
+        "start": 5,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0983",
+        "start": 273,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0956",
+        "start": 541,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0934",
+        "start": 803,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0973",
+        "start": 1065,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0954",
+        "start": 1327,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0032",
+        "start": 1595,
+        "rows": 255,
+        "full_rows": 255
+      },
+      {
+        "image_id": "0920",
+        "start": 1852,
+        "rows": 149,
+        "full_rows": 266
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 1775.8582725840097
+  },
+  {
+    "id": "test_072",
+    "split": "test",
+    "file": "sequences/test_072.npz",
+    "sha256": "e74f5aa6b5b53571535180bf0c3fc8ffdbb860c46dc657b153ed193fd0a8b376",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0942",
+        "start": 5,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0043",
+        "start": 273,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0912",
+        "start": 541,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "1000",
+        "start": 809,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0997",
+        "start": 1077,
+        "rows": 264,
+        "full_rows": 264
+      },
+      {
+        "image_id": "0917",
+        "start": 1343,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0972",
+        "start": 1611,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0937",
+        "start": 1873,
+        "rows": 128,
+        "full_rows": 260
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 1800.0477474170038
+  },
+  {
+    "id": "test_073",
+    "split": "test",
+    "file": "sequences/test_073.npz",
+    "sha256": "66b80f40bb06c155fb81a362879bf2beae9447fee57cbb9292346465ec2ca70b",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0943",
+        "start": 5,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0991",
+        "start": 267,
+        "rows": 273,
+        "full_rows": 273
+      },
+      {
+        "image_id": "0988",
+        "start": 542,
+        "rows": 264,
+        "full_rows": 264
+      },
+      {
+        "image_id": "0928",
+        "start": 808,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0915",
+        "start": 1076,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0936",
+        "start": 1344,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0953",
+        "start": 1612,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0945",
+        "start": 1880,
+        "rows": 121,
+        "full_rows": 260
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 1824.55603895901
+  },
+  {
+    "id": "test_074",
+    "split": "test",
+    "file": "sequences/test_074.npz",
+    "sha256": "8430ede25fb74b4422bfd8bf116b5a2109266d2b1a0869b6b694713e1d485046",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0970",
+        "start": 5,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0971",
+        "start": 267,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0922",
+        "start": 535,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0007",
+        "start": 797,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0990",
+        "start": 1065,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0981",
+        "start": 1327,
+        "rows": 264,
+        "full_rows": 264
+      },
+      {
+        "image_id": "0963",
+        "start": 1593,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0921",
+        "start": 1861,
+        "rows": 140,
+        "full_rows": 266
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 1848.965209417016
+  },
+  {
+    "id": "test_075",
+    "split": "test",
+    "file": "sequences/test_075.npz",
+    "sha256": "60f268e4aa56c459dec01abb9242332e5bfb1d15a822807639f5ec8d8d899b1e",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0949",
+        "start": 5,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0999",
+        "start": 267,
+        "rows": 273,
+        "full_rows": 273
+      },
+      {
+        "image_id": "0914",
+        "start": 542,
+        "rows": 264,
+        "full_rows": 264
+      },
+      {
+        "image_id": "0995",
+        "start": 808,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0978",
+        "start": 1070,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0944",
+        "start": 1332,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0994",
+        "start": 1594,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0947",
+        "start": 1856,
+        "rows": 145,
+        "full_rows": 266
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 1873.5016056250024
+  },
+  {
+    "id": "test_076",
+    "split": "test",
+    "file": "sequences/test_076.npz",
+    "sha256": "93da194b3cd0f72ef26d3bae71940e67543f2f03d19cc02fd571a43aa1e327fb",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0923",
+        "start": 5,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0951",
+        "start": 267,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0976",
+        "start": 535,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0965",
+        "start": 797,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0977",
+        "start": 1065,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0992",
+        "start": 1327,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0084",
+        "start": 1589,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0933",
+        "start": 1857,
+        "rows": 144,
+        "full_rows": 266
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 1897.8525212920213
+  },
+  {
+    "id": "test_077",
+    "split": "test",
+    "file": "sequences/test_077.npz",
+    "sha256": "8e1f9eee4aa91d31839339da4ab98e4868e19c8ad7ad8233b9fd22ef573244bb",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0069",
+        "start": 5,
+        "rows": 256,
+        "full_rows": 256
+      },
+      {
+        "image_id": "0966",
+        "start": 263,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0911",
+        "start": 525,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0925",
+        "start": 793,
+        "rows": 264,
+        "full_rows": 264
+      },
+      {
+        "image_id": "0950",
+        "start": 1059,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0959",
+        "start": 1321,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0985",
+        "start": 1583,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0030",
+        "start": 1851,
+        "rows": 150,
+        "full_rows": 260
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 1922.5290225000062
+  },
+  {
+    "id": "test_078",
+    "split": "test",
+    "file": "sequences/test_078.npz",
+    "sha256": "d9210b12e295334516e069671f05abccb1be62f22fca223439c19ddc02b31479",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0931",
+        "start": 5,
+        "rows": 256,
+        "full_rows": 256
+      },
+      {
+        "image_id": "0099",
+        "start": 263,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0960",
+        "start": 525,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0946",
+        "start": 787,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0964",
+        "start": 1049,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0967",
+        "start": 1317,
+        "rows": 256,
+        "full_rows": 256
+      },
+      {
+        "image_id": "0958",
+        "start": 1575,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0939",
+        "start": 1837,
+        "rows": 164,
+        "full_rows": 266
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 1946.6559353340126
+  },
+  {
+    "id": "test_079",
+    "split": "test",
+    "file": "sequences/test_079.npz",
+    "sha256": "24f264fbde55abfbd3990ad3ea531fe673c031b6cffa3208ce2014e2bd0b0830",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0961",
+        "start": 5,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0982",
+        "start": 273,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0952",
+        "start": 535,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0993",
+        "start": 797,
+        "rows": 252,
+        "full_rows": 252
+      },
+      {
+        "image_id": "0984",
+        "start": 1051,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0986",
+        "start": 1319,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0948",
+        "start": 1587,
+        "rows": 256,
+        "full_rows": 256
+      },
+      {
+        "image_id": "0035",
+        "start": 1845,
+        "rows": 156,
+        "full_rows": 252
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 1970.6188876250235
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "status": "complete",
+  "sequences": 80,
+  "targets": 158160,
+  "target_multiplier": 10,
+  "unique_images": 640,
+  "source_pool_images": 1000,
+  "split_summary": {
+    "train": {
+      "sequences": 60,
+      "images": 480,
+      "targets": 118620
+    },
+    "validation": {
+      "sequences": 10,
+      "images": 80,
+      "targets": 19770
+    },
+    "test": {
+      "sequences": 10,
+      "images": 80,
+      "targets": 19770
+    }
+  },
+  "source_hash_overlap": 0,
+  "canonical_replay": {
+    "sample": "train_000",
+    "rows": 1982,
+    "rmse_lsb": 0
+  },
+  "retraining_performed": false,
+  "github_upload_performed": false
+}
