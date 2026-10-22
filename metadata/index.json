@@ -1,0 +1,490 @@
+[
+  {
+    "id": "train_000",
+    "split": "train",
+    "file": "sequences/train_000.npz",
+    "sha256": "3913726b17e3a928fe80a1b6728dc269a1068de263bce54990c90158b43c88d2",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0060",
+        "start": 5,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0010",
+        "start": 273,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0075",
+        "start": 541,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0005",
+        "start": 809,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0088",
+        "start": 1071,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0080",
+        "start": 1339,
+        "rows": 256,
+        "full_rows": 256
+      },
+      {
+        "image_id": "0015",
+        "start": 1597,
+        "rows": 264,
+        "full_rows": 264
+      },
+      {
+        "image_id": "0019",
+        "start": 1863,
+        "rows": 138,
+        "full_rows": 260
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 39.23630350001622
+  },
+  {
+    "id": "train_001",
+    "split": "train",
+    "file": "sequences/train_001.npz",
+    "sha256": "d18c3df69f0bc1c978a0825c114ff7e08c597141162cf25143743fc7576bb921",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0045",
+        "start": 5,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0054",
+        "start": 273,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0022",
+        "start": 535,
+        "rows": 273,
+        "full_rows": 273
+      },
+      {
+        "image_id": "0076",
+        "start": 810,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0038",
+        "start": 1072,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0079",
+        "start": 1340,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0066",
+        "start": 1608,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0095",
+        "start": 1876,
+        "rows": 125,
+        "full_rows": 266
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 61.84071550000226
+  },
+  {
+    "id": "train_002",
+    "split": "train",
+    "file": "sequences/train_002.npz",
+    "sha256": "042a9f2a96e23cdbc6384e5a18841208e618f8bcf89370566906ade52cf0eddb",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0037",
+        "start": 5,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0014",
+        "start": 267,
+        "rows": 255,
+        "full_rows": 255
+      },
+      {
+        "image_id": "0094",
+        "start": 524,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0029",
+        "start": 786,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0027",
+        "start": 1048,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0023",
+        "start": 1316,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0021",
+        "start": 1578,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0070",
+        "start": 1840,
+        "rows": 161,
+        "full_rows": 260
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 84.4269786250079
+  },
+  {
+    "id": "train_003",
+    "split": "train",
+    "file": "sequences/train_003.npz",
+    "sha256": "deecd4b7c02205de6aec158c725c2c8503ea118c782a778809329d0919de4008",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0020",
+        "start": 5,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0031",
+        "start": 273,
+        "rows": 264,
+        "full_rows": 264
+      },
+      {
+        "image_id": "0065",
+        "start": 539,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0075",
+        "start": 807,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0033",
+        "start": 1075,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0021",
+        "start": 1343,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0046",
+        "start": 1605,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0055",
+        "start": 1873,
+        "rows": 128,
+        "full_rows": 260
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 104.4534451669897
+  },
+  {
+    "id": "train_004",
+    "split": "train",
+    "file": "sequences/train_004.npz",
+    "sha256": "2e430010b90892c25f33906ffd8ccbc592a08946e2b5c7a516e7632a357387b6",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0055",
+        "start": 5,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0029",
+        "start": 267,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0094",
+        "start": 529,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0079",
+        "start": 791,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0024",
+        "start": 1059,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0077",
+        "start": 1321,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0039",
+        "start": 1583,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0087",
+        "start": 1845,
+        "rows": 156,
+        "full_rows": 266
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 121.89116266701603
+  },
+  {
+    "id": "train_005",
+    "split": "train",
+    "file": "sequences/train_005.npz",
+    "sha256": "c01a4756dcf42e241f8ff5d8c9736ef0c50bd5b2b1c9380332cda2444e715976",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0091",
+        "start": 5,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0001",
+        "start": 273,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0053",
+        "start": 535,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0031",
+        "start": 797,
+        "rows": 264,
+        "full_rows": 264
+      },
+      {
+        "image_id": "0095",
+        "start": 1063,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0062",
+        "start": 1331,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0059",
+        "start": 1599,
+        "rows": 255,
+        "full_rows": 255
+      },
+      {
+        "image_id": "0086",
+        "start": 1856,
+        "rows": 145,
+        "full_rows": 256
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 141.81455729200388
+  },
+  {
+    "id": "validation_006",
+    "split": "validation",
+    "file": "sequences/validation_006.npz",
+    "sha256": "27bf8b548c919d54a5f050f418e1c9935c28d913174f91783f86e68e6ea92f93",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0018",
+        "start": 5,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0082",
+        "start": 273,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0100",
+        "start": 541,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0072",
+        "start": 803,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0074",
+        "start": 1065,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0063",
+        "start": 1327,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0056",
+        "start": 1589,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0042",
+        "start": 1857,
+        "rows": 144,
+        "full_rows": 260
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 164.66828541699215
+  },
+  {
+    "id": "test_007",
+    "split": "test",
+    "file": "sequences/test_007.npz",
+    "sha256": "ef69ca068c7ff926b2363c4d3bed76273ee956a99ce970d0cedf75444f9515f5",
+    "targets": 1977,
+    "prefix_min": 10,
+    "prefix_max": 2000,
+    "images": [
+      {
+        "image_id": "0069",
+        "start": 5,
+        "rows": 256,
+        "full_rows": 256
+      },
+      {
+        "image_id": "0043",
+        "start": 263,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0099",
+        "start": 531,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0030",
+        "start": 793,
+        "rows": 260,
+        "full_rows": 260
+      },
+      {
+        "image_id": "0032",
+        "start": 1055,
+        "rows": 255,
+        "full_rows": 255
+      },
+      {
+        "image_id": "0007",
+        "start": 1312,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0084",
+        "start": 1580,
+        "rows": 266,
+        "full_rows": 266
+      },
+      {
+        "image_id": "0090",
+        "start": 1848,
+        "rows": 153,
+        "full_rows": 266
+      }
+    ],
+    "query_commit_exact": true,
+    "seconds": 187.07695008299197
+  }
+]

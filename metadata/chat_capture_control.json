@@ -1,0 +1,12 @@
+{
+  "image_id": "0060",
+  "positions": 266,
+  "layer_index": 4,
+  "reference": "source/image_chat_100/capture/0060/all_layers.gkv.gz",
+  "exact": false,
+  "rmse_lsb": 0.8258687255161768,
+  "max_abs_lsb": 17.0,
+  "matching_dimensions": 0.9393319725093985,
+  "first_different_absolute_position": 239,
+  "scope": "first image with same public prefix only; not proof for every long multi-image context"
+}

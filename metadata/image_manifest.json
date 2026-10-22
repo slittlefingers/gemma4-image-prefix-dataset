@@ -1,0 +1,898 @@
+[
+  {
+    "id": "0072",
+    "split": "validation",
+    "coco_image_id": 281414,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000281414.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "source_sha256": "642feaee715a26cb9d4ddc8d3e5dc1bcfadb9ddb3cbfe282f021b8fff830ea53",
+    "feature_sha256": "18a98be21a92dc60d7af8f51a9de6c6f9c1de1809758b8be5943a150e5f37f0c",
+    "rows": 260,
+    "resized_width": 624,
+    "resized_height": 960
+  },
+  {
+    "id": "0033",
+    "split": "train",
+    "coco_image_id": 250619,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000250619.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by/2.0/",
+      "id": 4,
+      "name": "Attribution License"
+    },
+    "source_sha256": "3c21d6cb222e98c8fd88a6ea7ab6b0bacec19a5802092098536a079cc26dd23f",
+    "feature_sha256": "d7d0c30af4c5f09e71ef9c3dfb027d64656105808b2da556ddd6250e3ce8ff22",
+    "rows": 266,
+    "resized_width": 912,
+    "resized_height": 672
+  },
+  {
+    "id": "0005",
+    "split": "train",
+    "coco_image_id": 156292,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000156292.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "source_sha256": "0d54e1fa3bf3de937c56321dcf4f4a8ca1c9af6a939133cb4552483a66dcbaac",
+    "feature_sha256": "a5fb390883b5d879a8685bfee57de181ff5151cd0dfc3d3d2446321f80e0a51f",
+    "rows": 260,
+    "resized_width": 624,
+    "resized_height": 960
+  },
+  {
+    "id": "0029",
+    "split": "train",
+    "coco_image_id": 334719,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000334719.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "source_sha256": "dd93e2f97c70a5dcf82b367db546ceaf41d4342fdad1136381ee6fa64a10ccdd",
+    "feature_sha256": "6b8fd20ce3d9c99b3934aa390fab252869536f54cd7089f1c8a3452995fe04c5",
+    "rows": 260,
+    "resized_width": 960,
+    "resized_height": 624
+  },
+  {
+    "id": "0091",
+    "split": "train",
+    "coco_image_id": 486046,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000486046.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "source_sha256": "cbf5920ff795f319cfe0934c62724aa79727a00cacffd8574327e53fe51ba83c",
+    "feature_sha256": "5817c9909f56239cff84a314caddcce378c6ebfaead964d126d3758b55d42c16",
+    "rows": 266,
+    "resized_width": 912,
+    "resized_height": 672
+  },
+  {
+    "id": "0087",
+    "split": "train",
+    "coco_image_id": 232538,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000232538.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by/2.0/",
+      "id": 4,
+      "name": "Attribution License"
+    },
+    "source_sha256": "13a15467e62e8162eaaa1aa5d44696b1379a5a34d65eaeaa843a1b438e312a09",
+    "feature_sha256": "090667a2413465fe24c40b65207addd5a10724483fca1c5c2bd18d99845787ec",
+    "rows": 266,
+    "resized_width": 912,
+    "resized_height": 672
+  },
+  {
+    "id": "0069",
+    "split": "test",
+    "coco_image_id": 173371,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000173371.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "source_sha256": "58008348b84d5a67ec51f932dd4c14d979fe269b80d3755e92ad1a07168d03fa",
+    "feature_sha256": "c918e2c5dbdc4d7f66b24b59cb7fa700dc652b4ce7d2780af24758fa02c3a801",
+    "rows": 256,
+    "resized_width": 768,
+    "resized_height": 768
+  },
+  {
+    "id": "0086",
+    "split": "train",
+    "coco_image_id": 74733,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000074733.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by/2.0/",
+      "id": 4,
+      "name": "Attribution License"
+    },
+    "source_sha256": "d99c93fb6d22a5d51bbb6e09ca5f10c11bdcf90a711abf6cc83188df52cc456a",
+    "feature_sha256": "c9a41a79651fab4bf23b85b8aac0d376f8dea5ddfca4ce2a37d58e63dc9e90aa",
+    "rows": 256,
+    "resized_width": 768,
+    "resized_height": 768
+  },
+  {
+    "id": "0090",
+    "split": "test",
+    "coco_image_id": 299553,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000299553.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc/2.0/",
+      "id": 2,
+      "name": "Attribution-NonCommercial License"
+    },
+    "source_sha256": "71a7aca2709a348921e70f68622c2b0935ad5775cd2fb3d6ece3ffb68d0ced79",
+    "feature_sha256": "841885a941e151d6295f996488efe29b227abb2baea53199a3d21b7954085577",
+    "rows": 266,
+    "resized_width": 672,
+    "resized_height": 912
+  },
+  {
+    "id": "0053",
+    "split": "train",
+    "coco_image_id": 364297,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000364297.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "source_sha256": "26fe8e8acf4da5acf46c8a745530edfb97fc98622717e3133ebde99b35a7ca33",
+    "feature_sha256": "239dec3a3f5292bc39d9909ece157119874c05a26d7c9f2880b7ae7bdddd0466",
+    "rows": 260,
+    "resized_width": 960,
+    "resized_height": 624
+  },
+  {
+    "id": "0100",
+    "split": "validation",
+    "coco_image_id": 140640,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000140640.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "source_sha256": "55d003ebb3d7e36f02a4b4ef36ed08aaf85cef55fc72edd2c2dbffb853419549",
+    "feature_sha256": "b087fc45c7f7ebac961583f781d3f3a13a8da7228a7f5b1dee10901431a4a7a0",
+    "rows": 260,
+    "resized_width": 960,
+    "resized_height": 624
+  },
+  {
+    "id": "0045",
+    "split": "train",
+    "coco_image_id": 24243,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000024243.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "source_sha256": "d5149ccbf5243f035138d8c982bcef0db2cf20e93cf249c73183957b9cff10ff",
+    "feature_sha256": "380ffbbca69dbd433ff3a3a4689d48ca9b6f444199334d40540f11e85aa9500a",
+    "rows": 266,
+    "resized_width": 912,
+    "resized_height": 672
+  },
+  {
+    "id": "0032",
+    "split": "test",
+    "coco_image_id": 297427,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000297427.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "source_sha256": "eaf7b61fe63d008cf2660f87ba4b96cdbb7ea93094617efb26628501a42c31f8",
+    "feature_sha256": "249f74db29448712663a0677364a6877af8d8efb66ebf667506e446ef67fc0e4",
+    "rows": 255,
+    "resized_width": 720,
+    "resized_height": 816
+  },
+  {
+    "id": "0065",
+    "split": "train",
+    "coco_image_id": 95862,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000095862.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc/2.0/",
+      "id": 2,
+      "name": "Attribution-NonCommercial License"
+    },
+    "source_sha256": "f9daa55cc53e682b1eb6456c1df2479b4c15d66d7ddfaf408661758c1131362b",
+    "feature_sha256": "3207c30e7a468634568f32ec0a3fbdaa7c54102d7c73a46090fab61b090b81cc",
+    "rows": 266,
+    "resized_width": 912,
+    "resized_height": 672
+  },
+  {
+    "id": "0024",
+    "split": "train",
+    "coco_image_id": 54592,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000054592.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc/2.0/",
+      "id": 2,
+      "name": "Attribution-NonCommercial License"
+    },
+    "source_sha256": "850a7dbd3351b791b86e7be0b8f24f461e12141d648b89bf1aff5f10135516f4",
+    "feature_sha256": "b8bc858e5be0263950844d80ffe5b8c7f235e10a8900be6c140c8449404ab94d",
+    "rows": 260,
+    "resized_width": 960,
+    "resized_height": 624
+  },
+  {
+    "id": "0042",
+    "split": "validation",
+    "coco_image_id": 570664,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000570664.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-sa/2.0/",
+      "id": 5,
+      "name": "Attribution-ShareAlike License"
+    },
+    "source_sha256": "34579fb585399d271b1530f0f9171fa5b7170f8e6abd8a4bd90c6569904e3967",
+    "feature_sha256": "35db5807690abbe7ca1d0108e6c288423b8a452be66875ef67ce1ea3cde6eb75",
+    "rows": 260,
+    "resized_width": 960,
+    "resized_height": 624
+  },
+  {
+    "id": "0015",
+    "split": "train",
+    "coco_image_id": 536038,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000536038.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "source_sha256": "81036e92551528f0b5ba5fc6b3bd5d94d9624e756f5061cc7722dece50bfc128",
+    "feature_sha256": "ebb8783e1c3bf817925091a89af197ecce8f3bccb8ccd2595e285e8f0c48a4c7",
+    "rows": 264,
+    "resized_width": 576,
+    "resized_height": 1056
+  },
+  {
+    "id": "0054",
+    "split": "train",
+    "coco_image_id": 430377,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000430377.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-sa/2.0/",
+      "id": 5,
+      "name": "Attribution-ShareAlike License"
+    },
+    "source_sha256": "77d618c8a700daec616d1827bc0afff3fa5b6423670ccf91003506c02f2ee73e",
+    "feature_sha256": "12228838d318a3f1aee76c6c60a1391631046e267da78d1affce0e94f1edd821",
+    "rows": 260,
+    "resized_width": 624,
+    "resized_height": 960
+  },
+  {
+    "id": "0039",
+    "split": "train",
+    "coco_image_id": 135902,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000135902.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nd/2.0/",
+      "id": 6,
+      "name": "Attribution-NoDerivs License"
+    },
+    "source_sha256": "fa86b4cfa8c271862e2f1b2e235a94a7a2362a1ba03d75185007439f3344a21f",
+    "feature_sha256": "81a8aee9ea7a78b83af1b24cc433c96d95f3766de7cdf88be888454de1b6ecf0",
+    "rows": 260,
+    "resized_width": 960,
+    "resized_height": 624
+  },
+  {
+    "id": "0019",
+    "split": "train",
+    "coco_image_id": 473219,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000473219.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc/2.0/",
+      "id": 2,
+      "name": "Attribution-NonCommercial License"
+    },
+    "source_sha256": "83ace86ece500600f603633e60a76711270ffee6a7c6ab36bc68f1ea12cfb8d9",
+    "feature_sha256": "b31378aaa3ebde53f762b69fc87d2c8fb77201fcd20bf900f2ab17224f395216",
+    "rows": 260,
+    "resized_width": 960,
+    "resized_height": 624
+  },
+  {
+    "id": "0023",
+    "split": "train",
+    "coco_image_id": 52996,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000052996.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-sa/2.0/",
+      "id": 5,
+      "name": "Attribution-ShareAlike License"
+    },
+    "source_sha256": "0be041c42db05b3e7a7074e5fc857a7b5d616697504048f751ea5025e856f406",
+    "feature_sha256": "fc11875606240ca5fa46012347ee92352b9c6e437363378e0207c9bf36bfcb20",
+    "rows": 260,
+    "resized_width": 960,
+    "resized_height": 624
+  },
+  {
+    "id": "0074",
+    "split": "validation",
+    "coco_image_id": 227898,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000227898.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "source_sha256": "6169122c7fd64b036eb85598a7f1085a4f25c7ffb57f0e1ac61e0e2ea52196d0",
+    "feature_sha256": "2e392cad0c16de303dbd187b536218b7ecbd89f255a3162874384ff978e38a5a",
+    "rows": 260,
+    "resized_width": 960,
+    "resized_height": 624
+  },
+  {
+    "id": "0062",
+    "split": "train",
+    "coco_image_id": 76468,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000076468.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "source_sha256": "ffc672262fe65dfaa7c8ffd499dbb40b06e699aafdf041db3ec50f615fd33436",
+    "feature_sha256": "3d5e20345966ffde156e24c763f4722b71dd6ecb071a18665b7fc75984bc1488",
+    "rows": 266,
+    "resized_width": 912,
+    "resized_height": 672
+  },
+  {
+    "id": "0063",
+    "split": "validation",
+    "coco_image_id": 482100,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000482100.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "source_sha256": "50d8eca396887768554706e6a17531278c20af83773d1d15f65bb271d62829e9",
+    "feature_sha256": "f80b1b1e17925a2ff40deec75e1aecec3891717af967b379c2e62da02e8a7272",
+    "rows": 260,
+    "resized_width": 960,
+    "resized_height": 624
+  },
+  {
+    "id": "0075",
+    "split": "train",
+    "coco_image_id": 439715,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000439715.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc/2.0/",
+      "id": 2,
+      "name": "Attribution-NonCommercial License"
+    },
+    "source_sha256": "cb5afca9304177a472d98045a48c8cf00a07a1cfc3a960cb57777d0d6ee798a2",
+    "feature_sha256": "6240708d56dfc4ad8c826e4abd3ed3ccb5df01a103c45d4dfd7f1ebacf6be1bb",
+    "rows": 266,
+    "resized_width": 912,
+    "resized_height": 672
+  },
+  {
+    "id": "0022",
+    "split": "train",
+    "coco_image_id": 231747,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000231747.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by/2.0/",
+      "id": 4,
+      "name": "Attribution License"
+    },
+    "source_sha256": "389e3ecbfaae1b09e918365bb46be7120c767cfdf0d59c61657b285aec6712f8",
+    "feature_sha256": "73cfc5f2b57b46824401a2d470c77e9592bc8420b6af78f63c0be558538f4eb2",
+    "rows": 273,
+    "resized_width": 1008,
+    "resized_height": 624
+  },
+  {
+    "id": "0059",
+    "split": "train",
+    "coco_image_id": 239717,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000239717.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc/2.0/",
+      "id": 2,
+      "name": "Attribution-NonCommercial License"
+    },
+    "source_sha256": "f2992928b4db1f874d9accab690e78ff37775d02a060abfd6b59a2c86e87ddb7",
+    "feature_sha256": "de6cb39fb6621ef41d4a059655e280d6d118b3acccf00e67085a3f18b1931cd8",
+    "rows": 255,
+    "resized_width": 720,
+    "resized_height": 816
+  },
+  {
+    "id": "0018",
+    "split": "validation",
+    "coco_image_id": 326174,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000326174.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "source_sha256": "8982eda5d2a96e76a6c91d8a02844fdee9c8c1dcb384f74be0244eecbefa78dc",
+    "feature_sha256": "22fb07ab4341566b32c90b7a0ed15e68bc4c0736e441e63c98844a7a71648bab",
+    "rows": 266,
+    "resized_width": 912,
+    "resized_height": 672
+  },
+  {
+    "id": "0038",
+    "split": "train",
+    "coco_image_id": 194940,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000194940.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "source_sha256": "f8fd2daecf19f0313769c4c3f9440781ee11605e4c55bf164ea50936f68006ac",
+    "feature_sha256": "39d0164d621864d44c2461ea161020d0b1e9cfd74c48ec8d244ac1317efbf750",
+    "rows": 266,
+    "resized_width": 912,
+    "resized_height": 672
+  },
+  {
+    "id": "0080",
+    "split": "train",
+    "coco_image_id": 527029,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000527029.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "source_sha256": "1f58ca1edded47efc20bcaa13638e92fdb78551d3984a428be4af267c16a85a9",
+    "feature_sha256": "769ebff555e4a25dace0687bac7487ba95bb98d93732603222965e4b7ad699a9",
+    "rows": 256,
+    "resized_width": 768,
+    "resized_height": 768
+  },
+  {
+    "id": "0079",
+    "split": "train",
+    "coco_image_id": 570834,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000570834.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "source_sha256": "2a92ab31c32928d402a0ac0b4688d242afbbfd3ef9325e3e92f4b6886e74a7bd",
+    "feature_sha256": "c005d2e47f9cce36bef1906d2cf488c8e8b6619a6e8255c43e4184d74eff65bc",
+    "rows": 266,
+    "resized_width": 912,
+    "resized_height": 672
+  },
+  {
+    "id": "0055",
+    "split": "train",
+    "coco_image_id": 516173,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000516173.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by/2.0/",
+      "id": 4,
+      "name": "Attribution License"
+    },
+    "source_sha256": "e69ad4420e419f68f080a90eeb4eb2e2b01725ef9b71b1bfd656b28a51b12f30",
+    "feature_sha256": "7fa2450e5b93f599efae3eaec3d6928bb13cd2eb0548d83252e99151823a46b1",
+    "rows": 260,
+    "resized_width": 624,
+    "resized_height": 960
+  },
+  {
+    "id": "0014",
+    "split": "train",
+    "coco_image_id": 2685,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000002685.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "source_sha256": "2430b9bffb5ff52dfbaf7b922ac8018547e233a5996a6b017bd1a206a46c5bdb",
+    "feature_sha256": "053ab77c587ab951d104adce361b4b330fc7dbd445ea3100c17c892be730750d",
+    "rows": 255,
+    "resized_width": 816,
+    "resized_height": 720
+  },
+  {
+    "id": "0043",
+    "split": "test",
+    "coco_image_id": 275198,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000275198.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by/2.0/",
+      "id": 4,
+      "name": "Attribution License"
+    },
+    "source_sha256": "c34482da7ff6fc53d5e78dc433cc673ab601757761e07948f15450cc8214a483",
+    "feature_sha256": "6d99d634daae4a473050fcc55f2ed4babb6452de13741fe2a8ffe3eced45c3fa",
+    "rows": 266,
+    "resized_width": 912,
+    "resized_height": 672
+  },
+  {
+    "id": "0095",
+    "split": "train",
+    "coco_image_id": 196009,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000196009.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "source_sha256": "1ce40717e790580b664ceb944b9739502d1f6b36173f2ca7372df35d1030104a",
+    "feature_sha256": "ad6d2adeade5bf90e19a214580d14fe38343ac48419f67c42ab3190620200faf",
+    "rows": 266,
+    "resized_width": 912,
+    "resized_height": 672
+  },
+  {
+    "id": "0056",
+    "split": "validation",
+    "coco_image_id": 193245,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000193245.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "source_sha256": "3e5e80ed875f946de9fc771a7ecc5ebf03248513b210ba0bbffa868884b9a051",
+    "feature_sha256": "a49afd3fadaeb04c0f2257bb0c272adafd88a996800d2e3d4fe5448a5892cd8a",
+    "rows": 266,
+    "resized_width": 912,
+    "resized_height": 672
+  },
+  {
+    "id": "0001",
+    "split": "train",
+    "coco_image_id": 438862,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000438862.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc/2.0/",
+      "id": 2,
+      "name": "Attribution-NonCommercial License"
+    },
+    "source_sha256": "3689831ed23f734ebab9405f48ffbfbbefb778e9de3101a9d56e421ea45288cf",
+    "feature_sha256": "0a8155efd7fd7bfee016f40376b5405e257810cc65e6ab15187792a64e2e1715",
+    "rows": 260,
+    "resized_width": 960,
+    "resized_height": 624
+  },
+  {
+    "id": "0037",
+    "split": "train",
+    "coco_image_id": 248284,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000248284.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-sa/2.0/",
+      "id": 5,
+      "name": "Attribution-ShareAlike License"
+    },
+    "source_sha256": "9f3308ac7ee40f7e983b1f36adb8a65244063a1cebcd609407951d5457bd260a",
+    "feature_sha256": "849df1398a16f5dec39abd77b5f0a1401d8284a75a8e65fe0d7161dbab59bc06",
+    "rows": 260,
+    "resized_width": 624,
+    "resized_height": 960
+  },
+  {
+    "id": "0060",
+    "split": "train",
+    "coco_image_id": 182417,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000182417.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by/2.0/",
+      "id": 4,
+      "name": "Attribution License"
+    },
+    "source_sha256": "688c4a3bf75a7dd19a9401d7f105f9675d50b2b1bc01a1355320878500e4d1fd",
+    "feature_sha256": "4e775595948468ac328c1e6d0e0c375bfbb8c9e8d4b8d69d0d9b4c171cc493d8",
+    "rows": 266,
+    "resized_width": 912,
+    "resized_height": 672
+  },
+  {
+    "id": "0099",
+    "split": "test",
+    "coco_image_id": 222458,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000222458.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "source_sha256": "b66a00bd95713529ea1ad346549d625019db4dc74b4082ef4f000da89778ac05",
+    "feature_sha256": "abcc3ded480003e5693ba60abe5ba2cf73a9564aed6f33a6f3a6f244e9384bc3",
+    "rows": 260,
+    "resized_width": 960,
+    "resized_height": 624
+  },
+  {
+    "id": "0076",
+    "split": "train",
+    "coco_image_id": 179265,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000179265.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "source_sha256": "1fc867afe91c5a84b66bd6eaada8d8bcca2ce65b15433be23ba0e70c3af34410",
+    "feature_sha256": "0214919af079aa01a70472be637123a8b71b45f7eaedca3b50d0d6630096e3e3",
+    "rows": 260,
+    "resized_width": 960,
+    "resized_height": 624
+  },
+  {
+    "id": "0021",
+    "split": "train",
+    "coco_image_id": 414170,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000414170.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "source_sha256": "63f866d3b8b97d1087131c18b9f80662ccf10bf864e1a20d64ff733ac731e2e1",
+    "feature_sha256": "e6f87e665a57c686e282711aa1d3af60ee197c563e8a06be03a36e45b04d803a",
+    "rows": 260,
+    "resized_width": 624,
+    "resized_height": 960
+  },
+  {
+    "id": "0020",
+    "split": "train",
+    "coco_image_id": 197796,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000197796.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "source_sha256": "f1a1103e0b5eb80b57ff82d5381352c74f3354d7b1bbac8b45eaba0de7f38e08",
+    "feature_sha256": "f97b03503b9c73808f0e655fb7b5f0fc0d1d4f83227d5f5474f3892be303be68",
+    "rows": 266,
+    "resized_width": 912,
+    "resized_height": 672
+  },
+  {
+    "id": "0077",
+    "split": "train",
+    "coco_image_id": 26204,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000026204.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "source_sha256": "173a86fef1dbf7dd4c91dbc6ed7f1df26fdfdc398681aa04e558ee165f3ea326",
+    "feature_sha256": "ba67f642c515c53d1d8d520393cc824dd291048783609d43e367f3649ef59f0b",
+    "rows": 260,
+    "resized_width": 960,
+    "resized_height": 624
+  },
+  {
+    "id": "0094",
+    "split": "train",
+    "coco_image_id": 426372,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000426372.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc/2.0/",
+      "id": 2,
+      "name": "Attribution-NonCommercial License"
+    },
+    "source_sha256": "2008ffc31ea397b00e132ab370a273a61ac65d00d7ad76789fb43ef404f88ca5",
+    "feature_sha256": "d26815f0839e08662f507877167045ab19e14f83a9ec183265ebe08fa151606a",
+    "rows": 260,
+    "resized_width": 960,
+    "resized_height": 624
+  },
+  {
+    "id": "0082",
+    "split": "validation",
+    "coco_image_id": 289059,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000289059.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc/2.0/",
+      "id": 2,
+      "name": "Attribution-NonCommercial License"
+    },
+    "source_sha256": "af6fa61274e497ecc170de5adc4b8e7ac89eba2bc22a6aa119b08ec7adbe9459",
+    "feature_sha256": "397248efeffde6bff7699acb4d1ee538aa75967f86b693e59236e8f8131a3a94",
+    "rows": 266,
+    "resized_width": 912,
+    "resized_height": 672
+  },
+  {
+    "id": "0031",
+    "split": "train",
+    "coco_image_id": 137727,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000137727.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "source_sha256": "791f023a721a8a8bee875d7a41366d0fe284498c9f7c84f673896b9dca8a90d7",
+    "feature_sha256": "e15cda84ed8bdff3680b63d6ef4628afadd9ac57e6607556b3b7c4f7e8bfd137",
+    "rows": 264,
+    "resized_width": 1056,
+    "resized_height": 576
+  },
+  {
+    "id": "0066",
+    "split": "train",
+    "coco_image_id": 367680,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000367680.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "source_sha256": "15a0aa08ef2c7dc21f247375f72459b6ee3f99b57a98482e5251294fc324b231",
+    "feature_sha256": "496343c54331631f5c2b02b1035b4c30c288db2e37a0adf6b6d5e4ea93cd5172",
+    "rows": 266,
+    "resized_width": 912,
+    "resized_height": 672
+  },
+  {
+    "id": "0070",
+    "split": "train",
+    "coco_image_id": 553664,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000553664.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by/2.0/",
+      "id": 4,
+      "name": "Attribution License"
+    },
+    "source_sha256": "69d32a91d82468a3c3140cc844586f1fe790d780afa7b44fc2391f2082de7f18",
+    "feature_sha256": "582151eb768df15e401ee08698994d675568a300b42c4288b3fb7923b94c819f",
+    "rows": 260,
+    "resized_width": 960,
+    "resized_height": 624
+  },
+  {
+    "id": "0027",
+    "split": "train",
+    "coco_image_id": 183965,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000183965.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc/2.0/",
+      "id": 2,
+      "name": "Attribution-NonCommercial License"
+    },
+    "source_sha256": "f2f31c324710401014e4f5591948706dd9f10cf97b6079d7a2c335533c105c99",
+    "feature_sha256": "2981e4dbe1bafb17b1b10d24fed1d092ce1e54a6db409c5f1b89c7b694425937",
+    "rows": 266,
+    "resized_width": 912,
+    "resized_height": 672
+  },
+  {
+    "id": "0007",
+    "split": "test",
+    "coco_image_id": 401446,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000401446.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "source_sha256": "c8866a5e483efeb8e1eb5e945d598015e8c46f0dad05cbfbc7cce0249488171b",
+    "feature_sha256": "97b54877e545cb23faaf9fa744ef3f5a39b7f989cb75222153ac87e8a9242633",
+    "rows": 266,
+    "resized_width": 912,
+    "resized_height": 672
+  },
+  {
+    "id": "0046",
+    "split": "train",
+    "coco_image_id": 434247,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000434247.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "source_sha256": "daa0a815599c3422a28409ac141216e88dcb3588abe07ddb1d4a9be2a126a371",
+    "feature_sha256": "68340bf5a59d52a307c5b981dbc83807e640fd53585b265b3e46476d5ea1190f",
+    "rows": 266,
+    "resized_width": 912,
+    "resized_height": 672
+  },
+  {
+    "id": "0010",
+    "split": "train",
+    "coco_image_id": 529568,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000529568.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by/2.0/",
+      "id": 4,
+      "name": "Attribution License"
+    },
+    "source_sha256": "2c97efcc385141e55c77afcf239cf59639637e9155cacf5ac870c87d2a6de42e",
+    "feature_sha256": "ed9d2173b344942bb06a31b928e82c6f47355a64610cbf44aa519fcd6f9d6c34",
+    "rows": 266,
+    "resized_width": 672,
+    "resized_height": 912
+  },
+  {
+    "id": "0084",
+    "split": "test",
+    "coco_image_id": 515077,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000515077.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "source_sha256": "d539581c8f79189c5f0fb5ab1f963ece3e4c54401a5d2d88fd0bbe62ad6d46b1",
+    "feature_sha256": "e10e1142a62a4917707631d9e04f5f0efa36928ebc96e6c7b0e288e1eecdd10f",
+    "rows": 266,
+    "resized_width": 912,
+    "resized_height": 672
+  },
+  {
+    "id": "0088",
+    "split": "train",
+    "coco_image_id": 12576,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000012576.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "source_sha256": "e819f39d02674a83e2c3ef722e93e9b3fd6f9e6bf016dc8d873f576e31169445",
+    "feature_sha256": "de16c8b53b9ea3e76c4fb814d22f0d02c9147b816e3b638550e2a59fb7449c4d",
+    "rows": 266,
+    "resized_width": 672,
+    "resized_height": 912
+  },
+  {
+    "id": "0030",
+    "split": "test",
+    "coco_image_id": 55150,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000055150.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "source_sha256": "a3cc1286a509c3778a503994298b6cb5f7a9cd18133b531cf66564eb24604d8e",
+    "feature_sha256": "1087bcbb91d502fca752114f794e368d088ec728b003b751a90b51cb419391af",
+    "rows": 260,
+    "resized_width": 960,
+    "resized_height": 624
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "sample": "train_000",
+  "checks": [
+    {
+      "position": 10,
+      "exact": true,
+      "rmse_lsb": 0.0,
+      "max_abs_lsb": 0.0
+    },
+    {
+      "position": 64,
+      "exact": true,
+      "rmse_lsb": 0.0,
+      "max_abs_lsb": 0.0
+    },
+    {
+      "position": 256,
+      "exact": false,
+      "rmse_lsb": 2.384848003542364,
+      "max_abs_lsb": 10.0
+    },
+    {
+      "position": 512,
+      "exact": true,
+      "rmse_lsb": 0.0,
+      "max_abs_lsb": 0.0
+    },
+    {
+      "position": 1000,
+      "exact": false,
+      "rmse_lsb": 3.529866985808389,
+      "max_abs_lsb": 12.0
+    },
+    {
+      "position": 1500,
+      "exact": false,
+      "rmse_lsb": 3.6064991248439253,
+      "max_abs_lsb": 15.0
+    },
+    {
+      "position": 2000,
+      "exact": false,
+      "rmse_lsb": 2.6947576421637622,
+      "max_abs_lsb": 13.0
+    }
+  ],
+  "all_exact": false,
+  "scope": "one sequence, fresh NPU worker, changed causal prefill boundaries; true prefix"
+}
