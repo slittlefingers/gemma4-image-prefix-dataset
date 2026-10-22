@@ -1,0 +1,130 @@
+[
+  {
+    "id": "0069",
+    "split": "test",
+    "coco_image_id": 173371,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000173371.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "source_sha256": "58008348b84d5a67ec51f932dd4c14d979fe269b80d3755e92ad1a07168d03fa",
+    "feature_sha256": "c918e2c5dbdc4d7f66b24b59cb7fa700dc652b4ce7d2780af24758fa02c3a801",
+    "rows": 256,
+    "resized_width": 768,
+    "resized_height": 768
+  },
+  {
+    "id": "0090",
+    "split": "test",
+    "coco_image_id": 299553,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000299553.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc/2.0/",
+      "id": 2,
+      "name": "Attribution-NonCommercial License"
+    },
+    "source_sha256": "71a7aca2709a348921e70f68622c2b0935ad5775cd2fb3d6ece3ffb68d0ced79",
+    "feature_sha256": "841885a941e151d6295f996488efe29b227abb2baea53199a3d21b7954085577",
+    "rows": 266,
+    "resized_width": 672,
+    "resized_height": 912
+  },
+  {
+    "id": "0032",
+    "split": "test",
+    "coco_image_id": 297427,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000297427.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "source_sha256": "eaf7b61fe63d008cf2660f87ba4b96cdbb7ea93094617efb26628501a42c31f8",
+    "feature_sha256": "249f74db29448712663a0677364a6877af8d8efb66ebf667506e446ef67fc0e4",
+    "rows": 255,
+    "resized_width": 720,
+    "resized_height": 816
+  },
+  {
+    "id": "0043",
+    "split": "test",
+    "coco_image_id": 275198,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000275198.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by/2.0/",
+      "id": 4,
+      "name": "Attribution License"
+    },
+    "source_sha256": "c34482da7ff6fc53d5e78dc433cc673ab601757761e07948f15450cc8214a483",
+    "feature_sha256": "6d99d634daae4a473050fcc55f2ed4babb6452de13741fe2a8ffe3eced45c3fa",
+    "rows": 266,
+    "resized_width": 912,
+    "resized_height": 672
+  },
+  {
+    "id": "0099",
+    "split": "test",
+    "coco_image_id": 222458,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000222458.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "source_sha256": "b66a00bd95713529ea1ad346549d625019db4dc74b4082ef4f000da89778ac05",
+    "feature_sha256": "abcc3ded480003e5693ba60abe5ba2cf73a9564aed6f33a6f3a6f244e9384bc3",
+    "rows": 260,
+    "resized_width": 960,
+    "resized_height": 624
+  },
+  {
+    "id": "0007",
+    "split": "test",
+    "coco_image_id": 401446,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000401446.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "source_sha256": "c8866a5e483efeb8e1eb5e945d598015e8c46f0dad05cbfbc7cce0249488171b",
+    "feature_sha256": "97b54877e545cb23faaf9fa744ef3f5a39b7f989cb75222153ac87e8a9242633",
+    "rows": 266,
+    "resized_width": 912,
+    "resized_height": 672
+  },
+  {
+    "id": "0084",
+    "split": "test",
+    "coco_image_id": 515077,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000515077.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+      "id": 1,
+      "name": "Attribution-NonCommercial-ShareAlike License"
+    },
+    "source_sha256": "d539581c8f79189c5f0fb5ab1f963ece3e4c54401a5d2d88fd0bbe62ad6d46b1",
+    "feature_sha256": "e10e1142a62a4917707631d9e04f5f0efa36928ebc96e6c7b0e288e1eecdd10f",
+    "rows": 266,
+    "resized_width": 912,
+    "resized_height": 672
+  },
+  {
+    "id": "0030",
+    "split": "test",
+    "coco_image_id": 55150,
+    "source_url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000055150.jpg",
+    "license": {
+      "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+      "id": 3,
+      "name": "Attribution-NonCommercial-NoDerivs License"
+    },
+    "source_sha256": "a3cc1286a509c3778a503994298b6cb5f7a9cd18133b531cf66564eb24604d8e",
+    "feature_sha256": "1087bcbb91d502fca752114f794e368d088ec728b003b751a90b51cb419391af",
+    "rows": 260,
+    "resized_width": 960,
+    "resized_height": 624
+  }
+]

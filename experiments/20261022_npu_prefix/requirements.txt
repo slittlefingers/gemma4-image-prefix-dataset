@@ -1,0 +1,6 @@
+# Install a CUDA-enabled PyTorch build appropriate to the host before training.
+torch>=2.6
+numpy>=2.0
+pillow>=10.0
+matplotlib>=3.8
+opencv-python-headless>=4.8

@@ -1,0 +1,388 @@
+{
+  "selected_decoder": "ridge",
+  "cnn_validation_mse": 0.025239385897293687,
+  "ridge_validation_mse": 0.011985439457930624,
+  "training_seconds": 25.12886040005833,
+  "cnn_best_step": 600,
+  "train_images": 40,
+  "val_images": 8,
+  "test_images": 8,
+  "metrics_7_complete_images": {
+    "true_embedding": {
+      "mse": 0.013416060737139848,
+      "psnr_db": 18.994888960611775,
+      "ssim": 0.4000441429757193
+    },
+    "best_kv_inverse": {
+      "mse": 0.04700078714266697,
+      "psnr_db": 13.367181585405977,
+      "ssim": 0.17912021708912396
+    },
+    "prefix_rollout": {
+      "mse": 0.047598698511166514,
+      "psnr_db": 13.312511709804385,
+      "ssim": 0.17722611185188045
+    },
+    "mean_embedding": {
+      "mse": 0.07418584610094374,
+      "psnr_db": 11.446809166230052,
+      "ssim": 0.23525559826828354
+    },
+    "shuffled_true_embedding": {
+      "mse": 0.1058440465195212,
+      "psnr_db": 10.083842863731926,
+      "ssim": 0.060930005180371415
+    }
+  },
+  "per_image": [
+    {
+      "image_id": "0069",
+      "coco_image_id": 173371,
+      "observed_rows": 256,
+      "full_rows": 256,
+      "complete": true,
+      "grid": [
+        16,
+        16
+      ],
+      "output_size": [
+        192,
+        192
+      ],
+      "metrics": {
+        "true_embedding": {
+          "mse": 0.018748876983567597,
+          "psnr_db": 17.27024740440052,
+          "ssim": 0.3968593173164456
+        },
+        "best_kv_inverse": {
+          "mse": 0.05569653941298385,
+          "psnr_db": 12.541717879597448,
+          "ssim": 0.15968395944318536
+        },
+        "prefix_rollout": {
+          "mse": 0.05730103010828832,
+          "psnr_db": 12.418375705923983,
+          "ssim": 0.15321430374029296
+        },
+        "mean_embedding": {
+          "mse": 0.08201086402407963,
+          "psnr_db": 10.861286125774427,
+          "ssim": 0.18624806544271072
+        },
+        "shuffled_true_embedding": {
+          "mse": 0.13166607943531702,
+          "psnr_db": 8.805260960443679,
+          "ssim": 0.04822354209358344
+        }
+      }
+    },
+    {
+      "image_id": "0043",
+      "coco_image_id": 275198,
+      "observed_rows": 266,
+      "full_rows": 266,
+      "complete": true,
+      "grid": [
+        14,
+        19
+      ],
+      "output_size": [
+        228,
+        168
+      ],
+      "metrics": {
+        "true_embedding": {
+          "mse": 0.015424844364540684,
+          "psnr_db": 18.117792092695776,
+          "ssim": 0.37059232232764194
+        },
+        "best_kv_inverse": {
+          "mse": 0.04345666462022911,
+          "psnr_db": 13.619436096449714,
+          "ssim": 0.15578246807555704
+        },
+        "prefix_rollout": {
+          "mse": 0.045067527161643244,
+          "psnr_db": 13.4613627085105,
+          "ssim": 0.15452114742257586
+        },
+        "mean_embedding": {
+          "mse": 0.07381548242277942,
+          "psnr_db": 11.318525375594096,
+          "ssim": 0.1379263049343044
+        },
+        "shuffled_true_embedding": {
+          "mse": 0.09806087910758723,
+          "psnr_db": 10.085042176586478,
+          "ssim": 0.03607393706806508
+        }
+      }
+    },
+    {
+      "image_id": "0099",
+      "coco_image_id": 222458,
+      "observed_rows": 260,
+      "full_rows": 260,
+      "complete": true,
+      "grid": [
+        13,
+        20
+      ],
+      "output_size": [
+        240,
+        156
+      ],
+      "metrics": {
+        "true_embedding": {
+          "mse": 0.01593962205644446,
+          "psnr_db": 17.97521980351862,
+          "ssim": 0.3942469746338059
+        },
+        "best_kv_inverse": {
+          "mse": 0.059506339445484356,
+          "psnr_db": 12.254367646994659,
+          "ssim": 0.1822338976847017
+        },
+        "prefix_rollout": {
+          "mse": 0.05803204806300303,
+          "psnr_db": 12.363321020743598,
+          "ssim": 0.1826499521709613
+        },
+        "mean_embedding": {
+          "mse": 0.08791754724782809,
+          "psnr_db": 10.559244365034976,
+          "ssim": 0.25697418453059473
+        },
+        "shuffled_true_embedding": {
+          "mse": 0.13794566445736334,
+          "psnr_db": 8.602919445637884,
+          "ssim": 0.053689929440000256
+        }
+      }
+    },
+    {
+      "image_id": "0030",
+      "coco_image_id": 55150,
+      "observed_rows": 260,
+      "full_rows": 260,
+      "complete": true,
+      "grid": [
+        13,
+        20
+      ],
+      "output_size": [
+        240,
+        156
+      ],
+      "metrics": {
+        "true_embedding": {
+          "mse": 0.017060056295078358,
+          "psnr_db": 17.68019540073446,
+          "ssim": 0.38989757206584136
+        },
+        "best_kv_inverse": {
+          "mse": 0.054639369092716425,
+          "psnr_db": 12.624943239885617,
+          "ssim": 0.16225719799133043
+        },
+        "prefix_rollout": {
+          "mse": 0.05465066095082481,
+          "psnr_db": 12.624045812795075,
+          "ssim": 0.16161161056605255
+        },
+        "mean_embedding": {
+          "mse": 0.09197404201492249,
+          "psnr_db": 10.363347270064809,
+          "ssim": 0.2187946929298345
+        },
+        "shuffled_true_embedding": {
+          "mse": 0.14863885236918611,
+          "psnr_db": 8.278676564966513,
+          "ssim": 0.04269487818792734
+        }
+      }
+    },
+    {
+      "image_id": "0032",
+      "coco_image_id": 297427,
+      "observed_rows": 255,
+      "full_rows": 255,
+      "complete": true,
+      "grid": [
+        17,
+        15
+      ],
+      "output_size": [
+        180,
+        204
+      ],
+      "metrics": {
+        "true_embedding": {
+          "mse": 0.008680868667079783,
+          "psnr_db": 20.614368141733628,
+          "ssim": 0.42233788224336805
+        },
+        "best_kv_inverse": {
+          "mse": 0.035376882299597866,
+          "psnr_db": 14.51280443324032,
+          "ssim": 0.2551325659844295
+        },
+        "prefix_rollout": {
+          "mse": 0.035234038934029446,
+          "psnr_db": 14.530375700966163,
+          "ssim": 0.25363185434789914
+        },
+        "mean_embedding": {
+          "mse": 0.05495839980781933,
+          "psnr_db": 12.599659208675607,
+          "ssim": 0.3940670911660938
+        },
+        "shuffled_true_embedding": {
+          "mse": 0.10569995001043839,
+          "psnr_db": 9.759252180870476,
+          "ssim": 0.06589241922757631
+        }
+      }
+    },
+    {
+      "image_id": "0007",
+      "coco_image_id": 401446,
+      "observed_rows": 266,
+      "full_rows": 266,
+      "complete": true,
+      "grid": [
+        14,
+        19
+      ],
+      "output_size": [
+        228,
+        168
+      ],
+      "metrics": {
+        "true_embedding": {
+          "mse": 0.011768128158475218,
+          "psnr_db": 19.292926106565012,
+          "ssim": 0.4515588961075575
+        },
+        "best_kv_inverse": {
+          "mse": 0.03428990934198744,
+          "psnr_db": 14.648336631010558,
+          "ssim": 0.13675759860113856
+        },
+        "prefix_rollout": {
+          "mse": 0.03403928958273484,
+          "psnr_db": 14.680195124393205,
+          "ssim": 0.1362861119868099
+        },
+        "mean_embedding": {
+          "mse": 0.04136384745810812,
+          "psnr_db": 13.833790721357644,
+          "ssim": 0.14459978197276052
+        },
+        "shuffled_true_embedding": {
+          "mse": 0.07975052099928676,
+          "psnr_db": 10.982664710748411,
+          "ssim": 0.05365425038389697
+        }
+      }
+    },
+    {
+      "image_id": "0084",
+      "coco_image_id": 515077,
+      "observed_rows": 266,
+      "full_rows": 266,
+      "complete": true,
+      "grid": [
+        14,
+        19
+      ],
+      "output_size": [
+        228,
+        168
+      ],
+      "metrics": {
+        "true_embedding": {
+          "mse": 0.006290028634792826,
+          "psnr_db": 22.01347377463442,
+          "ssim": 0.3748160361353748
+        },
+        "best_kv_inverse": {
+          "mse": 0.046039805785669734,
+          "psnr_db": 13.368665170663519,
+          "ssim": 0.2019938318435252
+        },
+        "prefix_rollout": {
+          "mse": 0.04886629477764193,
+          "psnr_db": 13.109905895298171,
+          "ssim": 0.19866780272857126
+        },
+        "mean_embedding": {
+          "mse": 0.08726073973106911,
+          "psnr_db": 10.591811097108799,
+          "ssim": 0.3081790669016862
+        },
+        "shuffled_true_embedding": {
+          "mse": 0.03914637925746956,
+          "psnr_db": 14.073084006870037,
+          "ssim": 0.12628107986155052
+        }
+      }
+    },
+    {
+      "image_id": "0090",
+      "coco_image_id": 299553,
+      "observed_rows": 153,
+      "full_rows": 266,
+      "complete": false,
+      "grid": [
+        19,
+        14
+      ],
+      "output_size": [
+        168,
+        228
+      ],
+      "metrics": {
+        "true_embedding": {
+          "mse": 0.004215853909604033,
+          "psnr_db": 23.75114446977698,
+          "ssim": 0.47179280855369016
+        },
+        "best_kv_inverse": {
+          "mse": 0.030253565878655755,
+          "psnr_db": 15.192234292709054,
+          "ssim": 0.32678569749707037
+        },
+        "prefix_rollout": {
+          "mse": 0.031162846318568176,
+          "psnr_db": 15.06362882065149,
+          "ssim": 0.32938894802137614
+        },
+        "mean_embedding": {
+          "mse": 0.04463717058832766,
+          "psnr_db": 13.503033417770267,
+          "ssim": 0.6194131410557006
+        },
+        "shuffled_true_embedding": {
+          "mse": 0.10092432192713306,
+          "psnr_db": 9.960041597704466,
+          "ssim": 0.11973907066138825
+        }
+      }
+    }
+  ],
+  "checkpoint_reload_max_abs": 0.0,
+  "limits": [
+    "Pixel decoder trained only on 40 real-image embedding/target pairs; model capacity/data limit conclusions.",
+    "Quarter native-input resolution (12 output pixels per 48-pixel token cell); no full-resolution claim.",
+    "Ground-truth reference uses PIL Lanczos resizing, not byte-identical phone STB preprocessing.",
+    "Token grids reconstructed in row-major spatial order from known resized dimensions.",
+    "Last test image has missing observations; mean embeddings fill missing input and those pixels are masked gray.",
+    "Aggregate metrics exclude partial final image; its per-image metrics use observed cells only.",
+    "Primary inverse is validation-selected KV ridge; prefix rollout uses separately reported last-step trained model.",
+    "Test images and pixels never used to train or select either model. No generated replacement images.",
+    "No NPU re-forward of predicted embeddings and no claim of exact image recovery."
+  ],
+  "selected_ridge_reload_png_max_abs": 0.001960751823350537
+}

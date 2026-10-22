@@ -1,6 +1,7 @@
 # 图片前缀逆向模型：首批真实 NPU 数据
 
-采集日期：2026-10-22。任务是收集监督数据，尚未训练逆向模型。
+采集日期：2026-10-22。本报告记录采集阶段，当时尚未训练逆向模型。
+后续已完成训练及图片重建，见 [实验更新](experiments/20261022_npu_prefix/README.md)。
 
 数据目录：[Release 下载](https://github.com/slittlefingers/gemma4-image-prefix-dataset/releases/tag/v2026.10.22-pilot)。
 共 8 条长序列、15,816 个目标位置，实际使用 56 张不同图片。

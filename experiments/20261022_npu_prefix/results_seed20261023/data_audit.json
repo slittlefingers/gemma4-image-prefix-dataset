@@ -1,0 +1,50 @@
+{
+  "sequence_hashes": "all match",
+  "image_feature_hashes": "all match",
+  "image_and_source_hash_split_overlap": 0,
+  "image_labels": "bitwise equal",
+  "counts": {
+    "train": {
+      "sequences": 6,
+      "images": 40,
+      "targets": 11862
+    },
+    "validation": {
+      "sequences": 1,
+      "images": 8,
+      "targets": 1977
+    },
+    "test": {
+      "sequences": 1,
+      "images": 8,
+      "targets": 1977
+    }
+  },
+  "quantization": [
+    {
+      "width": 512,
+      "scale": 0.0011563472216948867,
+      "zero_point": 0,
+      "dtype": "int8"
+    },
+    {
+      "width": 512,
+      "scale": 0.01785714365541935,
+      "zero_point": 0,
+      "dtype": "int8"
+    }
+  ],
+  "note": "Original images not in archive; labels and observations are real phone-collected arrays.",
+  "model": {
+    "current_future_embedding_mutation_max_abs": 0.0,
+    "independent_queries": true,
+    "parallel_vs_sequential_exact_history_max_abs": 1.7881393432617188e-06,
+    "checkpoint_reload_max_abs": 0.0
+  },
+  "last_step_model": {
+    "current_future_embedding_mutation_max_abs": 0.0,
+    "independent_queries": true,
+    "parallel_vs_sequential_exact_history_max_abs": 1.7881393432617188e-06,
+    "checkpoint_reload_max_abs": 0.0
+  }
+}

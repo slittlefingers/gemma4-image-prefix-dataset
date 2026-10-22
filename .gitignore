@@ -2,3 +2,8 @@ data/
 *.tar.gz
 __pycache__/
 .DS_Store
+downloads/
+*.pt
+*.npy
+*.npz
+experiments/*/reconstruction/images/

@@ -1,0 +1,47 @@
+{
+  "standalone_vs_saved_max_abs": 6.556510925292969e-07,
+  "models": {
+    "20261022": {
+      "model": {
+        "current_future_embedding_mutation_max_abs": 0.0,
+        "independent_queries": true,
+        "parallel_vs_sequential_exact_history_max_abs": 1.7881393432617188e-06,
+        "checkpoint_reload_max_abs": 0.0
+      },
+      "last_step_model": {
+        "current_future_embedding_mutation_max_abs": 0.0,
+        "independent_queries": true,
+        "parallel_vs_sequential_exact_history_max_abs": 1.7881393432617188e-06,
+        "checkpoint_reload_max_abs": 0.0
+      }
+    },
+    "20261023": {
+      "model": {
+        "current_future_embedding_mutation_max_abs": 0.0,
+        "independent_queries": true,
+        "parallel_vs_sequential_exact_history_max_abs": 1.7881393432617188e-06,
+        "checkpoint_reload_max_abs": 0.0
+      },
+      "last_step_model": {
+        "current_future_embedding_mutation_max_abs": 0.0,
+        "independent_queries": true,
+        "parallel_vs_sequential_exact_history_max_abs": 1.7881393432617188e-06,
+        "checkpoint_reload_max_abs": 0.0
+      }
+    },
+    "20261024": {
+      "model": {
+        "current_future_embedding_mutation_max_abs": 0.0,
+        "independent_queries": true,
+        "parallel_vs_sequential_exact_history_max_abs": 1.7881393432617188e-06,
+        "checkpoint_reload_max_abs": 0.0
+      },
+      "last_step_model": {
+        "current_future_embedding_mutation_max_abs": 0.0,
+        "independent_queries": true,
+        "parallel_vs_sequential_exact_history_max_abs": 1.7881393432617188e-06,
+        "checkpoint_reload_max_abs": 0.0
+      }
+    }
+  }
+}

@@ -1,0 +1,112 @@
+[
+  {
+    "path": "experiments/20261022_npu_prefix/results_seed20261022/kv_only_last.pt",
+    "bytes": 13412759,
+    "sha256": "85ceb7c3c5c861c905ca37cb4c88dce5eadd682adf0430ac59bb656f4f18580a"
+  },
+  {
+    "path": "experiments/20261022_npu_prefix/results_seed20261022/kv_only_model.pt",
+    "bytes": 13412744,
+    "sha256": "581bf83ae1fef38da3827382fbe654ecbbc6edb8283f29bab24933b936a7a669"
+  },
+  {
+    "path": "experiments/20261022_npu_prefix/results_seed20261022/prefix_last.pt",
+    "bytes": 13412710,
+    "sha256": "7c636b390eaa9690158b3b0d231133e10cf39a1f35f0edc2fb72c3edf7f26bdc"
+  },
+  {
+    "path": "experiments/20261022_npu_prefix/results_seed20261022/prefix_model.pt",
+    "bytes": 13412695,
+    "sha256": "2e5b3464b580405a5cf42707e0d8aa1cabba368870875efdd7ae15ab11a931a1"
+  },
+  {
+    "path": "experiments/20261022_npu_prefix/results_seed20261022/ridges.pt",
+    "bytes": 12659221,
+    "sha256": "2c7e139c78f09038c58a7652f651f386dbe864cf0b2d6e02f40c2ff1438f9dcf"
+  },
+  {
+    "path": "experiments/20261022_npu_prefix/results_seed20261022/test_predictions.pt",
+    "bytes": 157936179,
+    "sha256": "c8ed12a6e1ff850c1eb86a3c5dc9c2e3dd3214af65e6ff6036ec886d5c9bf7de"
+  },
+  {
+    "path": "experiments/20261022_npu_prefix/results_seed20261023/kv_only_last.pt",
+    "bytes": 13412759,
+    "sha256": "e8166912037f17e75c207cf963c27c19ef2b3396d445aa9b118c92c03e3f0493"
+  },
+  {
+    "path": "experiments/20261022_npu_prefix/results_seed20261023/kv_only_model.pt",
+    "bytes": 13412744,
+    "sha256": "314c907ba308e6921f9fe5d4ade8574a095061b7cb0060fd513ecf4a1f373977"
+  },
+  {
+    "path": "experiments/20261022_npu_prefix/results_seed20261023/prefix_last.pt",
+    "bytes": 13412710,
+    "sha256": "279586be436a3b619c79d266c9b5e0de8cc8600925fa1abebdabb84a7b83d9a5"
+  },
+  {
+    "path": "experiments/20261022_npu_prefix/results_seed20261023/prefix_model.pt",
+    "bytes": 13412695,
+    "sha256": "3dd8a78da93a421b6874c624ac31f08496222a76cad0fd56cace351330e3b801"
+  },
+  {
+    "path": "experiments/20261022_npu_prefix/results_seed20261023/ridges.pt",
+    "bytes": 12659221,
+    "sha256": "2c7e139c78f09038c58a7652f651f386dbe864cf0b2d6e02f40c2ff1438f9dcf"
+  },
+  {
+    "path": "experiments/20261022_npu_prefix/results_seed20261023/test_predictions.pt",
+    "bytes": 157936179,
+    "sha256": "47eee48906c12f7e5d04440526f012f19900d54f2f5258394a33fbb18b6d8b71"
+  },
+  {
+    "path": "experiments/20261022_npu_prefix/results_seed20261024/kv_only_last.pt",
+    "bytes": 13412759,
+    "sha256": "eea28064acf2a3635e50d1d0bf88ac7bcc3ac364d6f254bcec40167b954267ef"
+  },
+  {
+    "path": "experiments/20261022_npu_prefix/results_seed20261024/kv_only_model.pt",
+    "bytes": 13412744,
+    "sha256": "1a4e2d5f1cdde7c854761c578155f4d183f0b255a7249d8fd72cb8296dc1fc32"
+  },
+  {
+    "path": "experiments/20261022_npu_prefix/results_seed20261024/prefix_last.pt",
+    "bytes": 13412710,
+    "sha256": "ac51cf0c1fa218c715e32cac45921538e5605c8386d588ff15f604dfabd91801"
+  },
+  {
+    "path": "experiments/20261022_npu_prefix/results_seed20261024/prefix_model.pt",
+    "bytes": 13412695,
+    "sha256": "0246f11eb20e9ce1375ad6d7a4f910d129a5f6abf1052f344f78f61d0249bff1"
+  },
+  {
+    "path": "experiments/20261022_npu_prefix/results_seed20261024/ridges.pt",
+    "bytes": 12659221,
+    "sha256": "2c7e139c78f09038c58a7652f651f386dbe864cf0b2d6e02f40c2ff1438f9dcf"
+  },
+  {
+    "path": "experiments/20261022_npu_prefix/results_seed20261024/test_predictions.pt",
+    "bytes": 157936179,
+    "sha256": "43b69c52ad563ef5e8238d180bd2e101c7a86e5ddcf59be67436d1b8ec9bb10c"
+  },
+  {
+    "path": "experiments/20261022_npu_prefix/inference_input.npz",
+    "bytes": 6145526,
+    "sha256": "aeb2bd23a4d22814624cff2fc2af40d50da47f37e05aa91cc1531646c9e7f13a"
+  },
+  {
+    "path": "experiments/20261022_npu_prefix/inference_output.npy",
+    "bytes": 6272,
+    "sha256": "328415bf8dabc505ee0f6ef209689be59148aee19186f7f238568c7961cad784"
+  },
+  {
+    "path": "experiments/20261022_npu_prefix/reconstruction/results/full_sequence_predictions.pt",
+    "bytes": 24590389,
+    "sha256": "6425e90aa6845ce79cd9d80a42f7c485b4cb7a8f8b749782549ca9a7475bd0d5"
+  },
+  {
+    "path": "experiments/20261022_npu_prefix/reconstruction/results/image_decoder.pt",
+    "bytes": 7372211,
+    "sha256": "24aecb492ba126b9618d498d2e15069a0dd8a403c402a95670fc128728007273"
+  }
+]

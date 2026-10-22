@@ -1,0 +1,236 @@
+{
+  "seeds": [
+    20261022,
+    20261023,
+    20261024
+  ],
+  "test_images": 8,
+  "test_sequences": 1,
+  "test_positions": 1977,
+  "aggregate": [
+    {
+      "name": "ridge_k",
+      "mean": {
+        "rmse": 0.3521592353741934,
+        "relative_rmse": 0.6534023493146114,
+        "mse": 0.12401612705933657,
+        "target_rms": 0.5389623036152106,
+        "mean_token_l2": 13.431782140366261,
+        "mean_cosine": 0.7706794495199324
+      },
+      "rmse_seed_std": 0.0
+    },
+    {
+      "name": "ridge_v",
+      "mean": {
+        "rmse": 0.3215636084401946,
+        "relative_rmse": 0.5966346927850696,
+        "mse": 0.10340315427307882,
+        "target_rms": 0.5389623036152106,
+        "mean_token_l2": 12.224671425303946,
+        "mean_cosine": 0.8149187863080328
+      },
+      "rmse_seed_std": 0.0
+    },
+    {
+      "name": "ridge_kv",
+      "mean": {
+        "rmse": 0.30659720830917137,
+        "relative_rmse": 0.5688657745682801,
+        "mse": 0.0940018481429774,
+        "target_rms": 0.5389623036152106,
+        "mean_token_l2": 11.656058748487732,
+        "mean_cosine": 0.8343422484731658
+      },
+      "rmse_seed_std": 0.0
+    },
+    {
+      "name": "mean",
+      "mean": {
+        "rmse": 0.5064365194520045,
+        "relative_rmse": 0.9396510962918332,
+        "mse": 0.2564779482346605,
+        "target_rms": 0.5389623036152106,
+        "mean_token_l2": 19.587465832335955,
+        "mean_cosine": 0.3536471045518447
+      },
+      "rmse_seed_std": 0.0
+    },
+    {
+      "name": "previous_true_embedding",
+      "mean": {
+        "rmse": 0.5508381091934721,
+        "relative_rmse": 1.022034575514098,
+        "mse": 0.30342262253983954,
+        "target_rms": 0.5389623036152106,
+        "mean_token_l2": 20.907131026617037,
+        "mean_cosine": 0.48153864860047796
+      },
+      "rmse_seed_std": 0.0
+    },
+    {
+      "name": "kv_only_model",
+      "mean": {
+        "rmse": 0.3065972082800006,
+        "relative_rmse": 0.5688657745141562,
+        "mse": 0.09400184812509005,
+        "target_rms": 0.5389623036152106,
+        "mean_token_l2": 11.656058748457733,
+        "mean_cosine": 0.8343422484021709
+      },
+      "rmse_seed_std": 0.0
+    },
+    {
+      "name": "prefix_true",
+      "mean": {
+        "rmse": 0.3065972082800006,
+        "relative_rmse": 0.5688657745141562,
+        "mse": 0.09400184812509005,
+        "target_rms": 0.5389623036152106,
+        "mean_token_l2": 11.656058748457733,
+        "mean_cosine": 0.8343422484021709
+      },
+      "rmse_seed_std": 0.0
+    },
+    {
+      "name": "prefix_mean",
+      "mean": {
+        "rmse": 0.3065972082800006,
+        "relative_rmse": 0.5688657745141562,
+        "mse": 0.09400184812509005,
+        "target_rms": 0.5389623036152106,
+        "mean_token_l2": 11.656058748457733,
+        "mean_cosine": 0.8343422484021709
+      },
+      "rmse_seed_std": 0.0
+    },
+    {
+      "name": "prefix_rollout",
+      "mean": {
+        "rmse": 0.30659720826254394,
+        "relative_rmse": 0.5688657744817669,
+        "mse": 0.09400184811438576,
+        "target_rms": 0.5389623036152106,
+        "mean_token_l2": 11.656058745572453,
+        "mean_cosine": 0.834342248492539
+      },
+      "rmse_seed_std": 0.0
+    },
+    {
+      "name": "prefix_last_true",
+      "mean": {
+        "rmse": 0.30807732985116854,
+        "relative_rmse": 0.5716120177323548,
+        "mse": 0.0949121162237722,
+        "target_rms": 0.5389623036152106,
+        "mean_token_l2": 11.710259706588523,
+        "mean_cosine": 0.8327056508447522
+      },
+      "rmse_seed_std": 0.000844146503732231
+    },
+    {
+      "name": "prefix_last_rollout",
+      "mean": {
+        "rmse": 0.3083215070127104,
+        "relative_rmse": 0.5720650682702199,
+        "mse": 0.0950626851878108,
+        "target_rms": 0.5389623036152106,
+        "mean_token_l2": 11.71873094631514,
+        "mean_cosine": 0.8324620836198428
+      },
+      "rmse_seed_std": 0.0008945679588337846
+    },
+    {
+      "name": "prefix_last_mean",
+      "mean": {
+        "rmse": 0.3073833545683586,
+        "relative_rmse": 0.5703244039639057,
+        "mse": 0.0944845283061538,
+        "target_rms": 0.5389623036152106,
+        "mean_token_l2": 11.690479962816894,
+        "mean_cosine": 0.8332918406670083
+      },
+      "rmse_seed_std": 4.960529071127439e-05
+    }
+  ],
+  "training": [
+    {
+      "seed": 20261022,
+      "models": {
+        "kv_only": {
+          "best_step": 0,
+          "last_step_train_subset_relative_rmse": 0.43410455739022563,
+          "last_step_train_subset_mse": 0.05458522215485573,
+          "last_step_prefix_projection_weight_change": 0.0,
+          "seconds": 6.73172889999114,
+          "parameters": 1383168
+        },
+        "prefix": {
+          "best_step": 0,
+          "last_step_train_subset_relative_rmse": 0.43243262881201544,
+          "last_step_train_subset_mse": 0.054165568202733994,
+          "last_step_prefix_projection_weight_change": 0.055435024201869965,
+          "seconds": 12.171937500010245,
+          "parameters": 1383168
+        }
+      }
+    },
+    {
+      "seed": 20261023,
+      "models": {
+        "kv_only": {
+          "best_step": 0,
+          "last_step_train_subset_relative_rmse": 0.4339571556675749,
+          "last_step_train_subset_mse": 0.05454815924167633,
+          "last_step_prefix_projection_weight_change": 0.0,
+          "seconds": 8.482156499987468,
+          "parameters": 1383168
+        },
+        "prefix": {
+          "best_step": 0,
+          "last_step_train_subset_relative_rmse": 0.4323055864251331,
+          "last_step_train_subset_mse": 0.05413374677300453,
+          "last_step_prefix_projection_weight_change": 0.054956912994384766,
+          "seconds": 12.31151749996934,
+          "parameters": 1383168
+        }
+      }
+    },
+    {
+      "seed": 20261024,
+      "models": {
+        "kv_only": {
+          "best_step": 0,
+          "last_step_train_subset_relative_rmse": 0.4342662875941863,
+          "last_step_train_subset_mse": 0.05462590232491493,
+          "last_step_prefix_projection_weight_change": 0.0,
+          "seconds": 6.896246199961752,
+          "parameters": 1383168
+        },
+        "prefix": {
+          "best_step": 0,
+          "last_step_train_subset_relative_rmse": 0.4325003288533945,
+          "last_step_train_subset_mse": 0.05418252944946289,
+          "last_step_prefix_projection_weight_change": 0.05284244194626808,
+          "seconds": 12.342290300060995,
+          "parameters": 1383168
+        }
+      }
+    }
+  ],
+  "environment": {
+    "python": "3.12.10",
+    "torch": "2.13.0+cu132",
+    "cuda": "13.2",
+    "gpu": "NVIDIA GeForce RTX 5070"
+  },
+  "limits": [
+    "8 held-out images in one test sequence; positions are correlated.",
+    "Embedding errors only. No phone attached; no NPU re-forward KV error measured.",
+    "Training uses exact prefixes. Rollout substitutes all previous image predictions from position 5.",
+    "Known template/separator embeddings and their positions retained in rollout.",
+    "Raw quantized K/V and absolute position are inputs; no guessed inverse RoPE.",
+    "No original image reconstruction training; archive contains embeddings and KV, not JPEGs.",
+    "Dataset fixed-prefill protocol differs measurably from single-position query path."
+  ]
+}

@@ -1,0 +1,26 @@
+Real NPU KV -> embedding -> image reconstruction pilot
+
+Dataset: 40 training images / 8 validation / 8 held-out test. All 56 original JPEG SHA256 hashes verified.
+Columns: downsampled original / true embedding / validation-selected KV ridge inverse / last-step prefix-network rollout.
+Image decoder trained only on true training embeddings paired with pixels. No held-out pixels used in training or model selection.
+Compared spatial CNN (3000 steps) and linear patch decoder; validation pixel MSE selected the linear decoder.
+Output: quarter native-preprocessed resolution; 12x12 pixels per image token. Nearest-neighbor enlargement for display.
+
+Mean per-image metrics on the 7 completely observed test images:
+true_embedding: MSE=0.013416; PSNR=18.995 dB; SSIM=0.4000
+best_kv_inverse: MSE=0.047001; PSNR=13.367 dB; SSIM=0.1791
+prefix_rollout: MSE=0.047599; PSNR=13.313 dB; SSIM=0.1772
+mean_embedding: MSE=0.074186; PSNR=11.447 dB; SSIM=0.2353
+shuffled_true_embedding: MSE=0.105844; PSNR=10.084 dB; SSIM=0.0609
+
+Visual observations: true-embedding reconstructions retain coarse food shapes, people positions, colors and scene layout, with substantial block artifacts.
+KV-inverted embeddings yield mostly coarse colored blocks; some silhouettes persist, but fine details are not reliably recovered.
+With this decoder, the KV->embedding stage causes substantial additional reconstruction loss. These metrics are not a percentage of information recovered.
+40 training images are few; true-embedding performance is not a theoretical recovery ceiling.
+Final image 0090 has only 153/266 observed image tokens. Missing pixels are gray and this image is excluded from aggregate metrics.
+PIL Lanczos reference resizing is not byte-identical to phone STB preprocessing.
+No NPU re-forward of predicted embeddings was measured.
+
+Selected decoder reload max absolute difference vs saved 8-bit PNG: 0.001960752 (includes PNG rounding).
+
+Reproduce: python experiments/20261022_npu_prefix/reconstruction/reconstruct.py --steps 3000

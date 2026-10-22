@@ -1,0 +1,65 @@
+Gemma4 real-NPU image-prefix inverse pilot (2026-10-22)
+Source: https://github.com/slittlefingers/gemma4-image-prefix-dataset
+Commit: 8e4005d4dd9fbc314628f0b3c7ca62d2cb59ac91
+Release: v2026.10.22-pilot
+Archive SHA256: e65d891a90eb626676a35705219980e94d4f6c6cd736dd9260892146f317aa82
+40 training images / 8 validation / 8 test; 6 / 1 / 1 sequences.
+11862 / 1977 / 1977 target positions; original image-disjoint split retained.
+All archive, sequence, feature hashes and embedding labels verified.
+Input: raw current INT8 K/V (512+512), absolute position, strict prefix embeddings.
+Output: current 1536-dimensional post-adapter embedding.
+No current/future embeddings or other-position KVs accessible to the prediction.
+No target model weights/gradients/phone used to train the inverse.
+K/V ridge alpha selected on validation, followed by 2000 AdamW steps per neural model.
+Two 192-wide blocks, 4 attention heads, 64 queries/step, equal prefix-length-bin sampling.
+Three seeds; model selection exclusively validation embedding MSE.
+
+TEST: mean across seeds; RMSE is per embedding dimension, not KV LSB.
+Method                      RMSE       Relative RMSE     Cosine
+ridge_k                      0.352159   65.340%          0.770679
+ridge_v                      0.321564   59.663%          0.814919
+ridge_kv                     0.306597   56.887%          0.834342
+mean                         0.506437   93.965%          0.353647
+previous_true_embedding      0.550838   102.203%          0.481539
+kv_only_model                0.306597   56.887%          0.834342
+prefix_true                  0.306597   56.887%          0.834342
+prefix_mean                  0.306597   56.887%          0.834342
+prefix_rollout               0.306597   56.887%          0.834342
+prefix_last_true             0.308077   57.161%          0.832706
+prefix_last_rollout          0.308322   57.207%          0.832462
+prefix_last_mean             0.307383   57.032%          0.833292
+
+TRAINING DIAGNOSTICS
+{"seed": 20261022, "models": {"kv_only": {"best_step": 0, "last_step_train_subset_relative_rmse": 0.43410455739022563, "last_step_train_subset_mse": 0.05458522215485573, "last_step_prefix_projection_weight_change": 0.0, "seconds": 6.73172889999114, "parameters": 1383168}, "prefix": {"best_step": 0, "last_step_train_subset_relative_rmse": 0.43243262881201544, "last_step_train_subset_mse": 0.054165568202733994, "last_step_prefix_projection_weight_change": 0.055435024201869965, "seconds": 12.171937500010245, "parameters": 1383168}}}
+{"seed": 20261023, "models": {"kv_only": {"best_step": 0, "last_step_train_subset_relative_rmse": 0.4339571556675749, "last_step_train_subset_mse": 0.05454815924167633, "last_step_prefix_projection_weight_change": 0.0, "seconds": 8.482156499987468, "parameters": 1383168}, "prefix": {"best_step": 0, "last_step_train_subset_relative_rmse": 0.4323055864251331, "last_step_train_subset_mse": 0.05413374677300453, "last_step_prefix_projection_weight_change": 0.054956912994384766, "seconds": 12.31151749996934, "parameters": 1383168}}}
+{"seed": 20261024, "models": {"kv_only": {"best_step": 0, "last_step_train_subset_relative_rmse": 0.4342662875941863, "last_step_train_subset_mse": 0.05462590232491493, "last_step_prefix_projection_weight_change": 0.0, "seconds": 6.896246199961752, "parameters": 1383168}, "prefix": {"best_step": 0, "last_step_train_subset_relative_rmse": 0.4325003288533945, "last_step_train_subset_mse": 0.05418252944946289, "last_step_prefix_projection_weight_change": 0.05284244194626808, "seconds": 12.342290300060995, "parameters": 1383168}}}
+
+Interpretation:
+All prefix models selected step 0: the ridge initializer. Attention training did not improve held-out validation.
+Identical teacher/rollout results do NOT demonstrate robustness to prediction errors: selected models ignore the prefix.
+Final trained checkpoints retained as prefix_last.pt; best-validation checkpoint is prefix_model.pt.
+
+Test prefix-length bins (ridge KV):
+10-31: RMSE=0.289935, relative RMSE=56.863%
+32-63: RMSE=0.319221, relative RMSE=56.982%
+64-127: RMSE=0.349881, relative RMSE=58.965%
+128-255: RMSE=0.313979, relative RMSE=56.848%
+256-511: RMSE=0.285415, relative RMSE=54.924%
+512-999: RMSE=0.300476, relative RMSE=56.742%
+1000-1499: RMSE=0.319681, relative RMSE=58.147%
+1500-2000: RMSE=0.301570, relative RMSE=56.280%
+
+Limitations:
+8 held-out images in one test sequence; positions are correlated.
+Embedding errors only. No phone attached; no NPU re-forward KV error measured.
+Training uses exact prefixes. Rollout substitutes all previous image predictions from position 5.
+Known template/separator embeddings and their positions retained in rollout.
+Raw quantized K/V and absolute position are inputs; no guessed inverse RoPE.
+No original image reconstruction training; archive contains embeddings and KV, not JPEGs.
+Dataset fixed-prefill protocol differs measurably from single-position query path.
+
+Run from the repository root:
+python experiments/20261022_npu_prefix/train.py --steps 2000 --seed 20261022 --out experiments/20261022_npu_prefix/results_seed20261022
+python experiments/20261022_npu_prefix/infer.py --checkpoint <prefix_model.pt> --input <input.npz> --output <embedding.npy>
+Input NPZ: prefix float32 array [p,1536], kv raw int8 array [1024].
+Original 60-token synthetic-image decoder is not applied to these variable 256-280-token natural images.
