@@ -1,0 +1,20 @@
+{
+  "dataset_commit": "955a392",
+  "source_experiment": "fixed991_rasr_pilot",
+  "report_only": true,
+  "checkpoint_files_in_git": false,
+  "script_changes_for_publication": [
+    "Resolve dataset/download paths relative to repository root.",
+    "Use portable Pillow default font for comparison panels."
+  ],
+  "original_run_hashes": "results/original_run_artifact_hashes.json",
+  "note": "Original checkpoint/script hashes describe the executed experiment. Portable script hashes are recorded separately; no model retraining was done for publication.",
+  "source_scripts": {
+    "diagnostics.py": "e33b98d61ec83ec51c4ee2396671b9a0d382d94ca8add0b45080b964744e4eb1",
+    "model.py": "dc7d6394837b3e79e7bd1c2bc18cb9cfe1dc4b7eb12d676e2d4467e0748a44cd",
+    "prepare.py": "3182c537d703d399ebed1bedfb03b24aff14aa8b8cfd31d1d296133305d5e811",
+    "report.py": "e353e949eb86f077c8f89e54220174e46d8c6bd9562d785ff05448fd38efcc60",
+    "run.py": "dcc64e9d5ca2ae43097d9cb759314e3891dddb246fb2a38a409a15c1f2affe96"
+  },
+  "publication_hash_byte_basis": "Committed Git blob bytes; Git may normalize text line endings relative to Windows working-tree bytes."
+}

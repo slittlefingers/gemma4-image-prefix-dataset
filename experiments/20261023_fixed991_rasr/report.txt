@@ -1,0 +1,93 @@
+Fixed-prefix RASR-style small validation
+Dataset Git commit: 955a392
+Paper: https://arxiv.org/html/2608.01020v1
+Method: coarse visual branch adapted to K/V. One causal Transformer maps all image positions together to latent V (1536); a two-layer MLP maps to latent Z (768); an inverse vision Transformer and U-net-style convolutional decoder produce pixels. Joint image MSE only; no V/Z activation supervision.
+This is not an exact reproduction: K/V instead of hidden states, a smaller 4,645,622-parameter network, and 12 epochs at lr=3e-4 instead of the paper settings. No consistency-guided refinement through the original target model.
+Data: all 1000 release samples hash-verified; original-image-ID split 800/100/100. Separate whiteboard target excluded from fitting, normalization, and checkpoint choice.
+Output: 24 pixels per image token, half the native STB width/height. Targets use 2x2 area reduction. Float16 storage of ordinary train/val/test target tensors; whiteboard evaluation uses float32. Model mixed precision: BF16, unrelated to input NPU INT8 quantization.
+Quantization: raw signed INT8 K/V, each 512 dimensions; K scale 0.0011563472216948867, V scale 0.01785714365541935, zero point 0. Per-channel standardization is fit on training observations only.
+Comparison: same test images, resolution and metrics for every method. Separate chain is two validation-selected ridge regressions KV->E and E->pixels. Direct ridge maps KV->pixel patches. True-E decoding is a reference decoder result, not an information-theoretic upper bound.
+Training duration (neural stage only): 88.66 seconds; 3384 steps.
+
+Method | Test mean MSE | mean per-image PSNR dB | mean SSIM
+Separate KV-E-pixels | 0.07164335 | 11.71919 | 0.31239
+Smoothed separate chain | 0.06611864 | 12.12056 | 0.39122
+Joint Transformer | 0.05092539 | 13.28107 | 0.41197
+True E decoder reference | 0.01571822 | 18.52790 | 0.42257
+
+Negative control means:
+mean_kv: {"mse": 0.10699642525601667, "psnr_db": 10.165677144125961, "ssim": 0.37379255106509823}
+shuffled_kv: {"mse": 0.08354531647599654, "psnr_db": 11.21970505595538, "ssim": 0.3667341699965776}
+
+Paired bootstrap over 100 test images (not training seeds):
+{
+  "separate_chain": {
+    "mean_mse_difference": -0.02071855822419759,
+    "ci95": [
+      -0.02403336639960536,
+      -0.017556149739078073
+    ]
+  },
+  "direct_ridge": {
+    "mean_mse_difference": -0.020751949284295378,
+    "ci95": [
+      -0.024017391758741725,
+      -0.017558171762053223
+    ]
+  }
+}
+
+Independent whiteboard evaluation (single case, not an accuracy estimate):
+{
+  "joint": {
+    "mse": 0.022343112786927077,
+    "psnr_db": 16.50856322177792,
+    "ssim": 0.8772002506247145
+  },
+  "separate_chain": {
+    "mse": 0.036452896276838016,
+    "psnr_db": 14.3826796015593,
+    "ssim": 0.684842379297405
+  },
+  "direct_ridge": {
+    "mse": 0.035838780949841345,
+    "psnr_db": 14.456467712130694,
+    "ssim": 0.6871521421386707
+  },
+  "true_e": {
+    "mse": 0.005310755514612028,
+    "psnr_db": 22.748436912562305,
+    "ssim": 0.5253595755717776
+  }
+}
+
+Checks: independent file hashes; unique source IDs/hashes; fixed-prefix identity; contiguous positions; finite arrays; target source hash absent; target reconstruction saved before truth opened; checkpoint reload max difference 0.0
+
+Limitations:
+Adaptation of the coarse visual branch, not exact RASR reproduction.
+Input is layer-index-4 NPU INT8 K/V, not full hidden states.
+Smaller architecture, 800 training images, changed training schedule; one random seed.
+Outputs have half native width/height (24 pixels per image token).
+No matched differentiable NPU forward: consistency-guided refinement not performed; no regenerated K/V error measured.
+Only one fixed 991-token prefix; no cross-prefix generalization claim.
+No independent target text transcription: no password or exact text recovery accuracy claimed.
+
+Commands:
+python prepare.py
+python run.py --epochs 12
+python report.py
+python run.py --reuse  # re-evaluate frozen checkpoints, does not train
+
+Artifacts: data_audit.json, download_audit.json (parent), joint_best.pt, ridges.pt, training.json, frozen_before_test.json, summary.json, test_overview.png, whiteboard_comparison.png, whiteboard_kv_only_predictions.pt.
+The whiteboard exact text has no independently verified annotation; do not treat guessed text as ground truth.
+No comparison to previous COCO scores: data distribution and output resolution changed.
+
+Additional diagnostic (added after the first image inspection; checkpoints unchanged):
+Gaussian smoothing sigma chosen using validation images only, then applied to test/whiteboard. Chosen sigma=12 output pixels. Final diagnostic metrics use FP32 area-reduced native labels. Cached FP16 label MSE was 1.08e-08.
+Joint vs smoothed separate-chain MSE difference: {"mean_mse_difference": -0.015193253204144356, "ci95": [-0.01846166987242847, -0.012092148227269095]}
+Whiteboard joint SSIM=0.877200 versus training-mean constant RGB SSIM=0.895418. High SSIM on this mostly blank image does NOT demonstrate handwriting recovery.
+Visual inspection: coarse blurred brightness/layout recovered on example held-out images, but fine structures/text remain missing. The whiteboard red handwriting is not legible in the KV-only reconstruction.
+Joint test gradient-magnitude correlation=0.063738; true-E reference=0.470551. These are Sobel-based diagnostics, not the original paper metric or character accuracy.
+This pilot supports improvement over the measured linear baselines, including smoothing; it does not isolate the benefit of joint loss from network capacity, nor establish exact image/text recovery.
+python diagnostics.py
+Additional artifacts: diagnostics.json, whiteboard_smoothing_control.png, test_smoothing_control.png.

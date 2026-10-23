@@ -13,13 +13,23 @@
 
 ## 2026-10-23 固定前缀 1000 张与重点测试图片
 
-固定 **991-token 前缀**（上一轮对话 511 tokens）的真实手机 NPU 数据，包含 **1000 张 HierText 训练来源图片**。与此前变化前缀的数据集不同。本版尚未训练恢复网络。
+固定 **991-token 前缀**（上一轮对话 511 tokens）的真实手机 NPU 数据，包含 **1000 张 HierText 训练来源图片**。与此前变化前缀的数据集不同。现已完成一轮 RASR 思路的小规模联合图像重建验证。
 
 [下载数据与重点测试观测](https://github.com/slittlefingers/gemma4-image-prefix-dataset/releases/tag/v2026.10.23-fixed-prefix-1000) · [数据说明与解压步骤](datasets/20261023_fixed991_1000/README.md)
 
 重点测试对象是单独保留的白板手写照片，用户已授权公开。它及其真实特征不得用于训练或选择模型；[测试对象说明](important_test/whiteboard/README.md)。
 
 ![重点测试对象：白板手写照片](important_test/whiteboard/target.jpg)
+
+### 联合图像重建验证
+
+按来源图片 ID 划分 800 / 100 / 100 张训练、验证、测试图，使用整张图的第 5 层 INT8 K/V，训练约 465 万参数的 Transformer 与图像解码器，只用像素 MSE 联合监督。独立白板不用于训练或选择模型。
+
+在同一批 100 张测试图上，分段线性链路、平滑后的分段链路、联合模型的 PSNR 分别为 **11.72 / 12.12 / 13.28 dB**。**粗略像素重建有所改善，但白板文字未恢复。** 白板 SSIM 较高不能说明文字成功恢复，纯色对照的 SSIM 甚至更高。
+
+这是 *Inverting the Hidden* 初始视觉重建阶段的缩小适配，输入为 K/V 而非完整 hidden states；未执行原模型梯度精修，也未测量重建图重新跑 NPU 的 K/V 误差。
+
+[完整实验报告与复现步骤](experiments/20261023_fixed991_rasr/README.md) · [白板重建对照](experiments/20261023_fixed991_rasr/results/whiteboard_smoothing_control.png) · [逐图指标与平滑诊断](experiments/20261023_fixed991_rasr/results/diagnostics.json)
 
 ## 2026-10-23 数据扩充：10 倍位置样本
 

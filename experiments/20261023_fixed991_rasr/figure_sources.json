@@ -1,0 +1,50 @@
+[
+  {
+    "figure_prefix": "test_000",
+    "sample_id": "hiertext_train_011e452a2711490b",
+    "source_image_id": "011e452a2711490b",
+    "source_sha256": "0b1dca666760a8b5f4ea7c8f3fb4884c7dcf7fabefbe49801a8e917649871cbe",
+    "source_dataset": "HierText",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "figure_prefix": "test_001",
+    "sample_id": "hiertext_train_01a5509b87957d35",
+    "source_image_id": "01a5509b87957d35",
+    "source_sha256": "94f7311015da5294fd3f10d576fcf94cbad600979ad587abed7aa52acbe6ec9f",
+    "source_dataset": "HierText",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "figure_prefix": "test_002",
+    "sample_id": "hiertext_train_01ea846da615bf28",
+    "source_image_id": "01ea846da615bf28",
+    "source_sha256": "686b84690fa96b52f46ab65804044c7bf45c49db4830886eedf2e8480f50395d",
+    "source_dataset": "HierText",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "figure_prefix": "test_003",
+    "sample_id": "hiertext_train_02bd3af9592ac220",
+    "source_image_id": "02bd3af9592ac220",
+    "source_sha256": "e6959953777bd0383f5cf5b6e9f6e2249759026d419ce97453ef6cc4c5a19338",
+    "source_dataset": "HierText",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "figure_prefix": "test_004",
+    "sample_id": "hiertext_train_0ac15082aab87dd5",
+    "source_image_id": "0ac15082aab87dd5",
+    "source_sha256": "972b818a18570381bd2e3dfd2e3d0739f395c2635a1ce340999eb16759de9f02",
+    "source_dataset": "HierText",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "figure_prefix": "test_005",
+    "sample_id": "hiertext_train_0b4f7d1dfcd0b576",
+    "source_image_id": "0b4f7d1dfcd0b576",
+    "source_sha256": "c8b90e447dcac9821f9969e124b021a722e9059a2f27e9d89dccbe4ca1036f28",
+    "source_dataset": "HierText",
+    "license": "CC BY-SA 4.0"
+  }
+]

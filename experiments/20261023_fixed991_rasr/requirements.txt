@@ -1,0 +1,6 @@
+# Install a CUDA-enabled PyTorch build compatible with your GPU first.
+torch>=2.6
+numpy>=2.0
+pillow>=10.1
+matplotlib>=3.8
+opencv-python-headless>=4.8

@@ -1,0 +1,10 @@
+{
+  "joint_checkpoint_sha256": "c0d0dbca28a663dd50762e282fb4ec631a29a4577b2529ff34970f07b8f85318",
+  "ridge_checkpoint_sha256": "707cfdce0dd2fd53d419bf6cce2239c579cffa88cc8e9e16cc72c08575dd753c",
+  "target_truth_used_for_training_or_selection": false,
+  "checkpoint_selection": "minimum mean per-image validation pixel MSE",
+  "target_inference_inputs": [
+    "observed.npz: codes, grid",
+    "training-set KV normalization"
+  ]
+}

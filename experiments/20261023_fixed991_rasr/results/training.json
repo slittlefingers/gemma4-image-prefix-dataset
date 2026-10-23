@@ -1,0 +1,98 @@
+[
+  {
+    "epoch": 1,
+    "step": 282,
+    "train_mse": 0.07914661805145443,
+    "validation_mse": 0.05705614482052624,
+    "best_epoch": 1,
+    "seconds": 20.645775999990292
+  },
+  {
+    "epoch": 2,
+    "step": 564,
+    "train_mse": 0.06022602297831327,
+    "validation_mse": 0.05363743613474071,
+    "best_epoch": 2,
+    "seconds": 26.917063800035976
+  },
+  {
+    "epoch": 3,
+    "step": 846,
+    "train_mse": 0.05320993832312524,
+    "validation_mse": 0.050240987208671865,
+    "best_epoch": 3,
+    "seconds": 33.25774460006505
+  },
+  {
+    "epoch": 4,
+    "step": 1128,
+    "train_mse": 0.049897176936501635,
+    "validation_mse": 0.04721347710117698,
+    "best_epoch": 4,
+    "seconds": 39.253459400031716
+  },
+  {
+    "epoch": 5,
+    "step": 1410,
+    "train_mse": 0.0473265526688192,
+    "validation_mse": 0.046538083753548565,
+    "best_epoch": 5,
+    "seconds": 45.5074477000162
+  },
+  {
+    "epoch": 6,
+    "step": 1692,
+    "train_mse": 0.04511781607754529,
+    "validation_mse": 0.04523280176334083,
+    "best_epoch": 6,
+    "seconds": 51.68874120002147
+  },
+  {
+    "epoch": 7,
+    "step": 1974,
+    "train_mse": 0.04360826671123505,
+    "validation_mse": 0.04403228776529431,
+    "best_epoch": 7,
+    "seconds": 57.80325220001396
+  },
+  {
+    "epoch": 8,
+    "step": 2256,
+    "train_mse": 0.04192883644602261,
+    "validation_mse": 0.0443880480946973,
+    "best_epoch": 7,
+    "seconds": 64.06254870002158
+  },
+  {
+    "epoch": 9,
+    "step": 2538,
+    "train_mse": 0.0409698128234595,
+    "validation_mse": 0.04307139810640365,
+    "best_epoch": 9,
+    "seconds": 70.09046970005147
+  },
+  {
+    "epoch": 10,
+    "step": 2820,
+    "train_mse": 0.039594893396133556,
+    "validation_mse": 0.04297173558268696,
+    "best_epoch": 10,
+    "seconds": 76.37153450003825
+  },
+  {
+    "epoch": 11,
+    "step": 3102,
+    "train_mse": 0.038705275753745806,
+    "validation_mse": 0.04211262492928654,
+    "best_epoch": 11,
+    "seconds": 82.47398940008134
+  },
+  {
+    "epoch": 12,
+    "step": 3384,
+    "train_mse": 0.03801592578412965,
+    "validation_mse": 0.04222571580670774,
+    "best_epoch": 11,
+    "seconds": 88.65725120005663
+  }
+]
