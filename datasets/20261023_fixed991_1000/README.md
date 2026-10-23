@@ -22,3 +22,18 @@ for f in gemma4-fixed991-1000-*.tar.gz; do tar -xzf "$f"; done
 三个包都解压到 `data/20261023_fixed991_1000/`。训练数组位于 samples/；重点测试对象位于 important_test/whiteboard/。无需把重点测试目录传入训练加载器。
 
 训练图片衍生数据遵循 HierText 官方 CC BY-SA 4.0 来源说明；附官方 README 和 LICENSE，不把模型权重或运行时随包分发。用户提供的重点测试照片经授权公开，不自动适用 HierText 的数据许可证。
+
+## K/V 量化参数与训练输入
+
+`kv_codes` 的最后一维顺序是 **K 在前，V 在后**，总计 1024 维；不是交错排列。原始 `quantization.json` 保留既有列表格式，第一项对应 K，第二项对应 V。`quantization_named.json` 提供显式名称和切片区间。
+
+| 部分 | Python 切片 | 维度 | 原始 dtype | scale | zero point |
+|---|---|---:|---|---:|---:|
+| K | `[..., :512]` | 512 | INT8 | 0.0011563472216948867 | 0 |
+| V | `[..., 512:1024]` | 512 | INT8 | 0.01785714365541935 | 0 |
+
+反量化公式为 `x = (q.astype(float32) - zero_point) * scale`。必须先转换为浮点数，避免 INT8 运算溢出。FP32 embedding 和 UINT8 RGB 像素标签使用各自的数据语义，不应用 K/V 的 scale。重点测试对象来自同一模型、同一层和采集协议，使用相同 K/V 量化参数。
+
+建议保留原始 INT8 存储，训练时反量化为 FP32，再仅用训练集拟合逐维均值和标准差；验证与重点测试对象复用这些统计量。不要用目标样本拟合标准化参数。若 INT8 码值和反量化值采用严格等价的逐维标准化，结果应近似一致；反量化本身不会增加信息。
+
+读取示例见仓库 `examples/dequantize_fixed_kv.py`。K/V 误差可以另外报告 LSB RMSE；它与反量化空间 RMSE 具有不同的权重，不能混作一个单位。

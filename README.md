@@ -17,6 +17,8 @@
 
 [下载数据与重点测试观测](https://github.com/slittlefingers/gemma4-image-prefix-dataset/releases/tag/v2026.10.23-fixed-prefix-1000) · [数据说明与解压步骤](datasets/20261023_fixed991_1000/README.md)
 
+[显式 K/V 量化参数](datasets/20261023_fixed991_1000/quantization_named.json) · [反量化读取示例](examples/dequantize_fixed_kv.py)。训练读取时建议 INT8 → FP32 反量化，再用训练集统计量标准化。
+
 重点测试对象是单独保留的白板手写照片，用户已授权公开。它及其真实特征不得用于训练或选择模型；[测试对象说明](important_test/whiteboard/README.md)。
 
 ![重点测试对象：白板手写照片](important_test/whiteboard/target.jpg)

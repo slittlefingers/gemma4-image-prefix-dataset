@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "model_sha256": "af1082986639ecde7db95d91be6fe54f8b6b458104734c5bafc204e69d6852dc",
+  "layer_index": 4,
+  "storage_dtype": "int8",
+  "layout": "K then V along final axis",
+  "width": 1024,
+  "dequantization": "(float32(q) - float32(zero_point)) * float32(scale)",
+  "parts": [
+    {
+      "name": "K",
+      "start": 0,
+      "stop": 512,
+      "width": 512,
+      "scale": 0.0011563472216948867,
+      "zero_point": 0,
+      "dtype": "int8"
+    },
+    {
+      "name": "V",
+      "start": 512,
+      "stop": 1024,
+      "width": 512,
+      "scale": 0.01785714365541935,
+      "zero_point": 0,
+      "dtype": "int8"
+    }
+  ]
+}
