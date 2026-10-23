@@ -1,0 +1,9 @@
+{
+  "valid": true,
+  "sample": "003237518ab015a9",
+  "rows": 266,
+  "snapshot_replay_exact": true,
+  "fresh_prefix_replay_exact": true,
+  "rmse_lsb": 0,
+  "pixel_source": "native STB resized image, recovered losslessly from /255 input patches"
+}

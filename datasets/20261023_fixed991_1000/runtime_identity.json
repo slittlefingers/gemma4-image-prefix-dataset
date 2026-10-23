@@ -1,0 +1,10 @@
+{
+  "model_sha256": "af1082986639ecde7db95d91be6fe54f8b6b458104734c5bafc204e69d6852dc",
+  "runtime_sha256": "ce88d0add27860ebdd50295a5a2cfcce7c35ffb2c76dcf43827f35fd82f932a9",
+  "test_apk_sha256": "bfcd98b823ad5cd87f124e8ff4c786ad770486c486aeecaf6263a26417c9e4e0",
+  "native_mode": "optimized_v2",
+  "batch_signature": "prefill_128",
+  "context_capacity": 4096,
+  "vocab_size": 262144,
+  "embedding_dim": 1536
+}

@@ -1,0 +1,34 @@
+{
+  "valid": true,
+  "images": 1000,
+  "image_positions": 263052,
+  "prefix_tokens": 991,
+  "split_summary": {
+    "train": {
+      "images": 1000,
+      "positions": 263052,
+      "sources": {
+        "HierText": 1000
+      }
+    }
+  },
+  "source_hash_overlap": 0,
+  "target_sha256_overlap": 0,
+  "validator_sha256": "7a4585135bb7e6e1cd1d83eae0d6f5eb8afd6377e04e4cbeb5a8569bae632c76",
+  "checks": [
+    "array file SHA256",
+    "unique source image IDs and byte hashes",
+    "fixed prefix identity",
+    "native image grid and pixel dimensions",
+    "finite FP32 labels",
+    "raw INT8 KV",
+    "contiguous image positions",
+    "snapshot and fresh-prefix exact replay"
+  ],
+  "limits": [
+    "specific constructed fixed conversation",
+    "candidate-query or alternate prefill paths not certified",
+    "target image is a separate private evaluation case",
+    "validation/test source domain is HierText"
+  ]
+}

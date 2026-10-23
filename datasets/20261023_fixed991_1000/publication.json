@@ -1,0 +1,22 @@
+{
+  "tag": "v2026.10.23-fixed-prefix-1000",
+  "url": "https://github.com/slittlefingers/gemma4-image-prefix-dataset/releases/tag/v2026.10.23-fixed-prefix-1000",
+  "assets": [
+    {
+      "name": "gemma4-fixed991-1000-train-01.tar.gz",
+      "bytes": 1784931084,
+      "sha256": "c082bd5033bde382a3db4ad5c443568db314093c3a38aab79277171a44c04a76"
+    },
+    {
+      "name": "gemma4-fixed991-1000-train-02.tar.gz",
+      "bytes": 1792288746,
+      "sha256": "db5148f162b8e6a0eb7f830313ce1ef41d5983592721ed0c4a58a8b6811be7ee"
+    },
+    {
+      "name": "gemma4-fixed991-1000-metadata-target.tar.gz",
+      "bytes": 6377995,
+      "sha256": "4e7f476d13eba31ea8628054a79d6e095b02fca5ea121f107d8925286f8c7260"
+    }
+  ],
+  "status": "prepared"
+}

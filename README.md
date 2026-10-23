@@ -11,6 +11,16 @@
 现已完成小规模逆向模型训练、预测前缀连续恢复与图片重建对照，见下面的实验更新。
 尚未达到完整图片恢复，也未验证预测 embedding 在 NPU 回放后的 K/V 误差。
 
+## 2026-10-23 固定前缀 1000 张与重点测试图片
+
+固定 **991-token 前缀**（上一轮对话 511 tokens）的真实手机 NPU 数据，包含 **1000 张 HierText 训练来源图片**。与此前变化前缀的数据集不同。本版尚未训练恢复网络。
+
+[下载数据与重点测试观测](https://github.com/slittlefingers/gemma4-image-prefix-dataset/releases/tag/v2026.10.23-fixed-prefix-1000) · [数据说明与解压步骤](datasets/20261023_fixed991_1000/README.md)
+
+重点测试对象是单独保留的白板手写照片，用户已授权公开。它及其真实特征不得用于训练或选择模型；[测试对象说明](important_test/whiteboard/README.md)。
+
+![重点测试对象：白板手写照片](important_test/whiteboard/target.jpg)
+
 ## 2026-10-23 数据扩充：10 倍位置样本
 
 已完成 **80 条真实 NPU 序列、640 张独立图片、158,160 个目标位置**。训练 / 验证 / 测试分别为 60 / 10 / 10 条序列、480 / 80 / 80 张图片。前缀范围仍为 10–2000，图片来自 COCO val2017，prompt 模板与先导版一致。
