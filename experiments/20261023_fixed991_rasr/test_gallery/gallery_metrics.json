@@ -1,0 +1,487 @@
+{
+  "images": 10,
+  "test_pool_images": 100,
+  "selection": "IDs sorted ascending, positions 1,11,...,91",
+  "checkpoint": {
+    "joint_checkpoint_sha256": "c0d0dbca28a663dd50762e282fb4ec631a29a4577b2529ff34970f07b8f85318",
+    "ridge_checkpoint_sha256": "707cfdce0dd2fd53d419bf6cce2239c579cffa88cc8e9e16cc72c08575dd753c",
+    "target_truth_used_for_training_or_selection": false,
+    "checkpoint_selection": "minimum mean per-image validation pixel MSE",
+    "target_inference_inputs": [
+      "observed.npz: codes, grid",
+      "training-set KV normalization"
+    ]
+  },
+  "per_image": [
+    {
+      "number": 1,
+      "id": "hiertext_train_011e452a2711490b",
+      "source_image_id": "011e452a2711490b",
+      "source_sha256": "0b1dca666760a8b5f4ea7c8f3fb4884c7dcf7fabefbe49801a8e917649871cbe",
+      "sample_sha256": "cd16cf5f794d599c3d2680f7e32138b62ac385d77d3317f2a94156ffc44c5e5a",
+      "stem": "001_011e452a2711490b",
+      "width": 456,
+      "height": 336,
+      "positions": 266,
+      "metrics": {
+        "joint": {
+          "mse": 0.042131017116379274,
+          "psnr_db": 13.753980561188468,
+          "ssim": 0.2973520968478672
+        },
+        "separate_chain": {
+          "mse": 0.048439827355648245,
+          "psnr_db": 13.14797413394859,
+          "ssim": 0.25290661011524007
+        },
+        "smooth_separate_chain": {
+          "mse": 0.04422766024311796,
+          "psnr_db": 13.54306035316824,
+          "ssim": 0.2986693069146153
+        },
+        "true_e": {
+          "mse": 0.014024454660619058,
+          "psnr_db": 18.531140172367603,
+          "ssim": 0.3937671388725602
+        }
+      },
+      "files": {
+        "comparisons/001_011e452a2711490b.png": {
+          "sha256": "cd12b744f0056978b1f2e1fda1ec91e4ae410535628414581fa81add2f511eea",
+          "bytes": 949074
+        },
+        "images/001_011e452a2711490b_reference.png": {
+          "sha256": "1d6c64ab32994322ff0813763ce5578387d79272b7c619b30304b07d77eb34f9",
+          "bytes": 292564
+        },
+        "images/001_011e452a2711490b_joint.png": {
+          "sha256": "13f25a31592fdcaaa086ff3538260ad826151ae4ea25b10c3c9ace85b6eb3734",
+          "bytes": 118013
+        }
+      }
+    },
+    {
+      "number": 11,
+      "id": "hiertext_train_1a81c18dd91f9b42",
+      "source_image_id": "1a81c18dd91f9b42",
+      "source_sha256": "fbd3d7313cb5ac3c20919dacb9d27874671d32f348204eca1c53eecaa9341077",
+      "sample_sha256": "7f02ca1a713a57b1c1f4a74ee891795719c1d0c97d354cfc4a22a57d40d1459f",
+      "stem": "011_1a81c18dd91f9b42",
+      "width": 288,
+      "height": 528,
+      "positions": 264,
+      "metrics": {
+        "joint": {
+          "mse": 0.054431804364861495,
+          "psnr_db": 12.641472689768028,
+          "ssim": 0.4374091703395552
+        },
+        "separate_chain": {
+          "mse": 0.06291858651695376,
+          "psnr_db": 12.012210424820397,
+          "ssim": 0.33254988883117365
+        },
+        "smooth_separate_chain": {
+          "mse": 0.057559307372594695,
+          "psnr_db": 12.398844406921725,
+          "ssim": 0.40840376918495086
+        },
+        "true_e": {
+          "mse": 0.014518487068750606,
+          "psnr_db": 18.3807863790087,
+          "ssim": 0.43148787607300626
+        }
+      },
+      "files": {
+        "comparisons/011_1a81c18dd91f9b42.png": {
+          "sha256": "7534e46cb81f73316c3ac22545e3bacb9986d8c015d0ed1cb371bc4778dc9038",
+          "bytes": 905611
+        },
+        "images/011_1a81c18dd91f9b42_reference.png": {
+          "sha256": "41525fdf3ade1b867bbe298aa01aa9ca16e93d8a1ecd2a90cf0b9eb53e961a06",
+          "bytes": 272995
+        },
+        "images/011_1a81c18dd91f9b42_joint.png": {
+          "sha256": "fab635cf849d22e51788f3ea794be34cb0fb3fd04e410fa47cecbc70cb04250f",
+          "bytes": 105707
+        }
+      }
+    },
+    {
+      "number": 21,
+      "id": "hiertext_train_32ac702848cb5491",
+      "source_image_id": "32ac702848cb5491",
+      "source_sha256": "2eb665fb1ca6fc4e295fa15aad763a409cbf88dc12a97e69fa8c5947741e7a9b",
+      "sample_sha256": "ec424fa6593126bc0cf0a52a68f1b7e7a30f841393a2f2ed3761aff748213b82",
+      "stem": "021_32ac702848cb5491",
+      "width": 456,
+      "height": 336,
+      "positions": 266,
+      "metrics": {
+        "joint": {
+          "mse": 0.021349311210951284,
+          "psnr_db": 16.706161319789345,
+          "ssim": 0.5544228552621119
+        },
+        "separate_chain": {
+          "mse": 0.05881080513000442,
+          "psnr_db": 12.305428749913538,
+          "ssim": 0.4269595275504821
+        },
+        "smooth_separate_chain": {
+          "mse": 0.05444678688354372,
+          "psnr_db": 12.64027744556893,
+          "ssim": 0.5354759585590896
+        },
+        "true_e": {
+          "mse": 0.010064700538257414,
+          "psnr_db": 19.971991424362436,
+          "ssim": 0.5003691487037175
+        }
+      },
+      "files": {
+        "comparisons/021_32ac702848cb5491.png": {
+          "sha256": "c052d6bfb45d0dbe0c29811a4bfd0ffee0846d13fcd13da6534d5203d64adb78",
+          "bytes": 777526
+        },
+        "images/021_32ac702848cb5491_reference.png": {
+          "sha256": "719f403ab0c8245e41c9eec8d8af8a8cc7ce3c0a65f1cfd1c7705b17c463c3db",
+          "bytes": 175831
+        },
+        "images/021_32ac702848cb5491_joint.png": {
+          "sha256": "5d904667d2941adc7a2652bc5f81806c8c8710af31ddcb1a1b9ceaef6c720a70",
+          "bytes": 98550
+        }
+      }
+    },
+    {
+      "number": 31,
+      "id": "hiertext_train_4c6819a0cfefc237",
+      "source_image_id": "4c6819a0cfefc237",
+      "source_sha256": "364029f2dea6ab4751161ee4e0645c5988c1d3d4663436bd798dd8d2052c2d29",
+      "sample_sha256": "10f202fae620126f2831df37030cb84ca10de544136c8ea739c3235c1d101da4",
+      "stem": "031_4c6819a0cfefc237",
+      "width": 480,
+      "height": 312,
+      "positions": 260,
+      "metrics": {
+        "joint": {
+          "mse": 0.030213368709177596,
+          "psnr_db": 15.198008493628334,
+          "ssim": 0.37374776231264667
+        },
+        "separate_chain": {
+          "mse": 0.06140451591221729,
+          "psnr_db": 12.117996880829896,
+          "ssim": 0.2670967788848407
+        },
+        "smooth_separate_chain": {
+          "mse": 0.054231339799473616,
+          "psnr_db": 12.657496660729242,
+          "ssim": 0.3154194810644667
+        },
+        "true_e": {
+          "mse": 0.009214322966982155,
+          "psnr_db": 20.35536569561089,
+          "ssim": 0.3899660681658344
+        }
+      },
+      "files": {
+        "comparisons/031_4c6819a0cfefc237.png": {
+          "sha256": "d99299ce25790bacf112bd3649975aebbc3aba14203de51a32477a3a8d2414f9",
+          "bytes": 879376
+        },
+        "images/031_4c6819a0cfefc237_reference.png": {
+          "sha256": "4c86a5b8cca107ae9f25e85160a3699a4d37f4b251740757d7e0b40edd13986f",
+          "bytes": 257379
+        },
+        "images/031_4c6819a0cfefc237_joint.png": {
+          "sha256": "4478d48f07138096f93ba5666817a23d611e706f132b62b23bf2e9b73d6224f2",
+          "bytes": 114176
+        }
+      }
+    },
+    {
+      "number": 41,
+      "id": "hiertext_train_6e3a82a09cbb1686",
+      "source_image_id": "6e3a82a09cbb1686",
+      "source_sha256": "d6041feeb278a1c2f06b3b5e54453dc7f390df6b99f385cc997bf3ed1be186b2",
+      "sample_sha256": "669dbbf3be193242e8a27987f50682f5f5dd9d1c4f453b28795603728d0da70f",
+      "stem": "041_6e3a82a09cbb1686",
+      "width": 456,
+      "height": 336,
+      "positions": 266,
+      "metrics": {
+        "joint": {
+          "mse": 0.036385306667931265,
+          "psnr_db": 14.390739603432149,
+          "ssim": 0.5018657777325838
+        },
+        "separate_chain": {
+          "mse": 0.043044040968100813,
+          "psnr_db": 13.660869639270068,
+          "ssim": 0.3986711266274214
+        },
+        "smooth_separate_chain": {
+          "mse": 0.04000721976900449,
+          "psnr_db": 13.978616280994636,
+          "ssim": 0.5021748433639218
+        },
+        "true_e": {
+          "mse": 0.01271687040222597,
+          "psnr_db": 18.956197545896757,
+          "ssim": 0.46791934263540885
+        }
+      },
+      "files": {
+        "comparisons/041_6e3a82a09cbb1686.png": {
+          "sha256": "fec6da42dbbd0a3f6988216501582ab3363619017193e97fa5f300f0e54b9d19",
+          "bytes": 916783
+        },
+        "images/041_6e3a82a09cbb1686_reference.png": {
+          "sha256": "38870c6ba881b66adcc9e91c71b4360ae2c8e11828128b7cf870a7d2c87e6fc2",
+          "bytes": 270573
+        },
+        "images/041_6e3a82a09cbb1686_joint.png": {
+          "sha256": "87dc78a32d35de663db1682a271d42b44d076d1118eda51e55cd81eafb910672",
+          "bytes": 120275
+        }
+      }
+    },
+    {
+      "number": 51,
+      "id": "hiertext_train_92b67ef3ea6d4693",
+      "source_image_id": "92b67ef3ea6d4693",
+      "source_sha256": "812f38fe9b2e886b180d3409ede9f055c25b5843f655623354adf8465f600513",
+      "sample_sha256": "9738963737e86e5e9d22c34839e31271cf543204678804f88ff282dd587d817d",
+      "stem": "051_92b67ef3ea6d4693",
+      "width": 264,
+      "height": 576,
+      "positions": 264,
+      "metrics": {
+        "joint": {
+          "mse": 0.04644246820243526,
+          "psnr_db": 13.330847075765867,
+          "ssim": 0.38332104623212826
+        },
+        "separate_chain": {
+          "mse": 0.08710066786159147,
+          "psnr_db": 10.599785149407657,
+          "ssim": 0.3038985472889964
+        },
+        "smooth_separate_chain": {
+          "mse": 0.08312506226435588,
+          "psnr_db": 10.802680163829015,
+          "ssim": 0.3587234988071982
+        },
+        "true_e": {
+          "mse": 0.01775588595605875,
+          "psnr_db": 17.506576530594575,
+          "ssim": 0.3863845886816975
+        }
+      },
+      "files": {
+        "comparisons/051_92b67ef3ea6d4693.png": {
+          "sha256": "2182868e038a24319dc5d5e7b02a103a4d131976ea54d4df9ff8f08261b8d2bd",
+          "bytes": 956887
+        },
+        "images/051_92b67ef3ea6d4693_reference.png": {
+          "sha256": "fd6d4d7d8ca5c3f85cc9cbe4d9b01715af35e794c8139e6948aecd3576c94e9d",
+          "bytes": 311697
+        },
+        "images/051_92b67ef3ea6d4693_joint.png": {
+          "sha256": "8d86b6c92c2768a3542af6253586bc4aeb5d0c1bd7ccde86cab35ccda7524faa",
+          "bytes": 96520
+        }
+      }
+    },
+    {
+      "number": 61,
+      "id": "hiertext_train_a401fffc2356e457",
+      "source_image_id": "a401fffc2356e457",
+      "source_sha256": "0947479ad401eb5d72bf94a8fce72de49b0827064ec2074e3323f4ea9cb61e5c",
+      "sample_sha256": "2223b6b970613b77158a63136863e7c07c2846f6579603ca02c027bd11ec5b1f",
+      "stem": "061_a401fffc2356e457",
+      "width": 384,
+      "height": 384,
+      "positions": 256,
+      "metrics": {
+        "joint": {
+          "mse": 0.10930662141344218,
+          "psnr_db": 9.613535292102206,
+          "ssim": 0.24551528528475897
+        },
+        "separate_chain": {
+          "mse": 0.10916836031749917,
+          "psnr_db": 9.619032126437219,
+          "ssim": 0.19832663007899168
+        },
+        "smooth_separate_chain": {
+          "mse": 0.10336334951943463,
+          "psnr_db": 9.856334256818316,
+          "ssim": 0.2481578248185205
+        },
+        "true_e": {
+          "mse": 0.02906700055141143,
+          "psnr_db": 15.365997811356243,
+          "ssim": 0.3413706936396783
+        }
+      },
+      "files": {
+        "comparisons/061_a401fffc2356e457.png": {
+          "sha256": "04a7bde5785a961d15e7efac82a299db289a65568abc99a510537338bd8e2ffa",
+          "bytes": 904172
+        },
+        "images/061_a401fffc2356e457_reference.png": {
+          "sha256": "e2e2f6f428c0c7fe1a5273385d097f70f240813c13412f5f878af0f60e39bdb6",
+          "bytes": 264992
+        },
+        "images/061_a401fffc2356e457_joint.png": {
+          "sha256": "4c8f77356cca6964a32a372010a12c91feafe4897b8841e3d2688a715a1565c8",
+          "bytes": 116320
+        }
+      }
+    },
+    {
+      "number": 71,
+      "id": "hiertext_train_ad0d3256a32692d5",
+      "source_image_id": "ad0d3256a32692d5",
+      "source_sha256": "cf4c655528e59250262abfaae56f437beff81acf62073a2b1d8a3952a87a2cff",
+      "sample_sha256": "72b93965190614066fb8841290999f7866ebfa023f5cd2e0a50a44b223a80f56",
+      "stem": "071_ad0d3256a32692d5",
+      "width": 480,
+      "height": 312,
+      "positions": 260,
+      "metrics": {
+        "joint": {
+          "mse": 0.04147071592100268,
+          "psnr_db": 13.822584672196047,
+          "ssim": 0.4157425013648291
+        },
+        "separate_chain": {
+          "mse": 0.04754078774465783,
+          "psnr_db": 13.22933626345246,
+          "ssim": 0.33205156611940106
+        },
+        "smooth_separate_chain": {
+          "mse": 0.04310502179282731,
+          "psnr_db": 13.654721310024193,
+          "ssim": 0.40943012416777846
+        },
+        "true_e": {
+          "mse": 0.012613117588010507,
+          "psnr_db": 18.99177555462782,
+          "ssim": 0.4127494294367246
+        }
+      },
+      "files": {
+        "comparisons/071_ad0d3256a32692d5.png": {
+          "sha256": "4f723eb106c6dff781b9e3443e15d742002f6d207bb7bf9b325b085ca6af7491",
+          "bytes": 875407
+        },
+        "images/071_ad0d3256a32692d5_reference.png": {
+          "sha256": "0e8ab5f8e0162f2c658722846d4e40588dc20c8165bc3d64a63d51b773f363df",
+          "bytes": 244844
+        },
+        "images/071_ad0d3256a32692d5_joint.png": {
+          "sha256": "0e61f8ad43006374593344d173527d1d2d4a5d13ebdaed1ccc8ecc826349f385",
+          "bytes": 115719
+        }
+      }
+    },
+    {
+      "number": 81,
+      "id": "hiertext_train_cfdfb53ad4634b32",
+      "source_image_id": "cfdfb53ad4634b32",
+      "source_sha256": "fafec248901b809c2890eda039f387ddadf9e82df4fe9ce6983281b1aee1c267",
+      "sample_sha256": "8e275846d40fa6186bf2bfcc88efd646ed017e1e3735c8ba078fce0c9c4643ff",
+      "stem": "081_cfdfb53ad4634b32",
+      "width": 480,
+      "height": 312,
+      "positions": 260,
+      "metrics": {
+        "joint": {
+          "mse": 0.045689196913536845,
+          "psnr_db": 13.401864755421208,
+          "ssim": 0.32523984016926094
+        },
+        "separate_chain": {
+          "mse": 0.044942194206412864,
+          "psnr_db": 13.473457279009919,
+          "ssim": 0.27302956677309553
+        },
+        "smooth_separate_chain": {
+          "mse": 0.0391268371237351,
+          "psnr_db": 14.075252575229486,
+          "ssim": 0.33216128275794365
+        },
+        "true_e": {
+          "mse": 0.012413020561218653,
+          "psnr_db": 19.06122525233785,
+          "ssim": 0.4135005985006914
+        }
+      },
+      "files": {
+        "comparisons/081_cfdfb53ad4634b32.png": {
+          "sha256": "ad103851d9a4097382278bad1564d03e71ce8458fc2109f7657c732fbb7dc695",
+          "bytes": 932875
+        },
+        "images/081_cfdfb53ad4634b32_reference.png": {
+          "sha256": "a080230e7d5adb1ca6e1bf786226cec41752734112008bb4a32c41a7998524be",
+          "bytes": 294538
+        },
+        "images/081_cfdfb53ad4634b32_joint.png": {
+          "sha256": "5b5d11f9536538180ced0424a1a577d33df88e33ae27f40043b1f6fdc29d6f6d",
+          "bytes": 107617
+        }
+      }
+    },
+    {
+      "number": 91,
+      "id": "hiertext_train_e50d9b4d8cac1767",
+      "source_image_id": "e50d9b4d8cac1767",
+      "source_sha256": "a1c9808447b69496338da0bb8f37577058dcf9a9d2f0bc5c2a1201cdff1e57e7",
+      "sample_sha256": "b1be1b38ba2353f26b05794ca4cb47e79962cb6e1caf0b7d3140ffa632cabdab",
+      "stem": "091_e50d9b4d8cac1767",
+      "width": 480,
+      "height": 312,
+      "positions": 260,
+      "metrics": {
+        "joint": {
+          "mse": 0.039318370779989446,
+          "psnr_db": 14.054044861583064,
+          "ssim": 0.39720658721816593
+        },
+        "separate_chain": {
+          "mse": 0.04727695485483601,
+          "psnr_db": 13.253505044688419,
+          "ssim": 0.33439701659093346
+        },
+        "smooth_separate_chain": {
+          "mse": 0.04383375327757392,
+          "psnr_db": 13.58191341165534,
+          "ssim": 0.3992293084439362
+        },
+        "true_e": {
+          "mse": 0.015107897897792258,
+          "psnr_db": 18.207959588839124,
+          "ssim": 0.4250139801033364
+        }
+      },
+      "files": {
+        "comparisons/091_e50d9b4d8cac1767.png": {
+          "sha256": "34c0eb959a5d1efbaf22e30cdbfed80926482a0f43f4c3d994782802b98e1a10",
+          "bytes": 890188
+        },
+        "images/091_e50d9b4d8cac1767_reference.png": {
+          "sha256": "beb8faad1618e350a013b2b30b7fecf63055a043cec398485bac2ff8745e1d4f",
+          "bytes": 262418
+        },
+        "images/091_e50d9b4d8cac1767_joint.png": {
+          "sha256": "801fc90208838b05ebeee53d46ba24720fa08cd642e42b8e2c361c1956e5376a",
+          "bytes": 113726
+        }
+      }
+    }
+  ]
+}

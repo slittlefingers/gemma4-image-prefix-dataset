@@ -29,7 +29,7 @@
 
 这是 *Inverting the Hidden* 初始视觉重建阶段的缩小适配，输入为 K/V 而非完整 hidden states；未执行原模型梯度精修，也未测量重建图重新跑 NPU 的 K/V 误差。
 
-[完整实验报告与复现步骤](experiments/20261023_fixed991_rasr/README.md) · [白板重建对照](experiments/20261023_fixed991_rasr/results/whiteboard_smoothing_control.png) · [逐图指标与平滑诊断](experiments/20261023_fixed991_rasr/results/diagnostics.json)
+[完整实验报告与复现步骤](experiments/20261023_fixed991_rasr/README.md) · [10 张测试图片还原样例](experiments/20261023_fixed991_rasr/test_gallery/README.md) · [白板重建对照](experiments/20261023_fixed991_rasr/results/whiteboard_smoothing_control.png) · [逐图指标与平滑诊断](experiments/20261023_fixed991_rasr/results/diagnostics.json)
 
 ## 2026-10-23 数据扩充：10 倍位置样本
 

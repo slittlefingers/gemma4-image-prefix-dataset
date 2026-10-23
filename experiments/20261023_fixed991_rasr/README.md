@@ -35,7 +35,9 @@
 
 ![训练曲线与测试指标](results/results_overview.png)
 
-[查看六张预先按 ID 排序的测试图对照](results/test_overview.png) · [查看平滑对照](results/test_smoothing_control.png)
+[查看 10 张测试图片还原样例](test_gallery/README.md) · [六张示例概览](results/test_overview.png) · [查看平滑对照](results/test_smoothing_control.png)
+
+样例从按 ID 排序的测试集中固定间隔选取第 1、11、21……91 张，逐图提供原尺寸参考 PNG、联合模型 PNG、五列重建对照和指标。使用同一个冻结模型导出，10 张图的所有已核对指标与原报告完全一致（最大差为 0），未重新训练或选择模型。
 
 真实 embedding 解码结果是一个参考解码器的表现，不是信息恢复上限。新数据来源和输出分辨率不同，不应直接与上一轮 COCO 指标比较。
 

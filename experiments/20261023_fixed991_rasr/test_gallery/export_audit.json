@@ -1,0 +1,28 @@
+{
+  "images": 10,
+  "comparison_panels": 10,
+  "reference_pngs": 10,
+  "joint_pngs": 10,
+  "test_pool_images": 100,
+  "all_npz_hashes_verified": true,
+  "checkpoint_hashes_verified": true,
+  "train_validation_ids_disjoint": true,
+  "selected_test_positions": [
+    1,
+    11,
+    21,
+    31,
+    41,
+    51,
+    61,
+    71,
+    81,
+    91
+  ],
+  "maximum_absolute_metric_difference_from_published_diagnostics": 0.0,
+  "no_retraining": true,
+  "no_checkpoint_selection": true,
+  "smoothing_sigma": 12.0,
+  "metric_reference": "results/diagnostics.json",
+  "checkpoint_sha256": "c0d0dbca28a663dd50762e282fb4ec631a29a4577b2529ff34970f07b8f85318"
+}

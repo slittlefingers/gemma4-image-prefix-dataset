@@ -16,5 +16,11 @@
     "report.py": "e353e949eb86f077c8f89e54220174e46d8c6bd9562d785ff05448fd38efcc60",
     "run.py": "dcc64e9d5ca2ae43097d9cb759314e3891dddb246fb2a38a409a15c1f2affe96"
   },
-  "publication_hash_byte_basis": "Committed Git blob bytes; Git may normalize text line endings relative to Windows working-tree bytes."
+  "publication_hash_byte_basis": "Committed Git blob bytes; Git may normalize text line endings relative to Windows working-tree bytes.",
+  "additional_exports": {
+    "test_gallery": "10 fixed-interval samples from 100 held-out images, unchanged checkpoint; matching published diagnostics",
+    "selection": "positions 1,11,...,91 after sorting test IDs",
+    "audit": "test_gallery/export_audit.json",
+    "new_training": false
+  }
 }
